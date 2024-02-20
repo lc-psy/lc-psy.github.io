@@ -1,6 +1,7 @@
 # Lee Cui
 
-[img](https://www.google.com/search/static/gs/animal/cover_images/m01yrx_cover.png)Hello there! I'm Lee.
+![Alt Text](https://www.google.com/search/static/gs/animal/cover_images/m01yrx_cover.png){: style="float: left; margin-right: 10px;"}
+Hello there! I'm Lee.
 
 I am a Ph.D. candidate in the Department of [Psychological and Brain Sciences](https://psych.ucsb.edu/), affiliated with the [Center for Information Technology and Society](https://cits.ucsb.edu/) at UC Santa Barbara. 
 
