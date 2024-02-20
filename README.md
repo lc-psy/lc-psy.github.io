@@ -6,7 +6,7 @@ I am a Ph.D. candidate in the Department of [Psychological and Brain Sciences](h
 
 I keep my visual arts separate. Visit [my artist site here](https://raven-ly.github.io/). 
 
-**This website is proudly hosted by a README file with GitHub.**
+**This website is proudly hosted solely by a README file on GitHub.**
 
 
 
