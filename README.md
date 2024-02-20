@@ -1,6 +1,6 @@
 # Lee Cui
 
-![Alt Text](https://raw.githubusercontent.com/raven-ly/raven-ly.github.io/master/author/avatar.jpg)){: style="float: left; margin-right: 10px; width: 200px;"} Hello there! I'm Lee.
+![Alt Text](https://www.google.com/search/static/gs/animal/cover_images/m01yrx_cover.png){: style="float: left; margin-right: 10px; width: 200px;"}  Hello there! I'm Lee.
 
 I am a Ph.D. candidate in the Department of [Psychological and Brain Sciences](https://psych.ucsb.edu/), affiliated with the [Center for Information Technology and Society](https://cits.ucsb.edu/) at UC Santa Barbara. 
 
