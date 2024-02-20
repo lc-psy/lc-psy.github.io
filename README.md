@@ -9,6 +9,8 @@ I study social minds and perception using interdisciplinary methods, including b
 
 ![Alt Text](https://www.google.com/search/static/gs/animal/cover_images/m01yrx_cover.png){: style="float: left; margin-right: 10px; width: 200px;"} I keep my visual arts separate. Visit [my artist site here](https://raven-ly.github.io/). 
 
+This website is proudly hosted by a README file with GitHub. 
+
 
 
 # Selected Publications & Manuscripts
