@@ -20,9 +20,9 @@ Cui, Q. & Li, Y. (in preparation). Sex Differences in Eye Movements While Viewin
 
 # Skills 
 Programming: R, Python, SPSS, SQL, Bash, Javascript/HTML/CSS\
-Statistical analysis: regression, multilevel modeling, significance testing, machine learning, natural language processing, network analysis \
+Statistical analysis: regression, multilevel modeling, significance testing, machine learning, natural language processing \
 Software and tools: Qualtrics, Pavlovia, Cloud Research, lmer, scikit-learn, ggplot, seaborn/matplotlib \
-Research methods: interview, usability testing, online experiments (A/B testing), in-lab experiments
-(survey & log studies), diary studies, social network analysis
+Research methods: interview, usability testing, online experiments (A/B testing)
+
 
 
