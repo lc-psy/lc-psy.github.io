@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI | </title>
+    <link>/tag/ai/</link>
+      <atom:link href="/tag/ai/index.xml" rel="self" type="application/rss+xml" />
+    <description>AI</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Lee Q. Cui © 2025  </copyright><lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0c096fd88411ae42cd0d948d93861e86_38487_512x512_fill_lanczos_center_3.png</url>
+      <title>AI</title>
+      <link>/tag/ai/</link>
+    </image>
+    
+    <item>
+      <title>How do human social biases shape algorithmic decision-making?</title>
+      <link>/post/ai-face/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/post/ai-face/</guid>
+      <description>&lt;h3 id=&#34;how-do-human-social-biases-shape-algorithmic-decision-making&#34;&gt;How do human social biases shape algorithmic decision-making?&lt;/h3&gt;
+&lt;p&gt;While face classification models are often treated as neutral, their outputs are deeply influenced by biased human input. My dissertation explores how racial prejudice—encoded through dataset construction and annotation—drives inequality in AI-based face classification systems.&lt;/p&gt;
+&lt;p&gt;Funded and supported through multiple research grants, this project sits at the intersection of psychology, data science, and ethics. I investigated how racial diversity in datasets and annotator bias influence a model&amp;rsquo;s performance and decisions—especially for racially ambiguous faces.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2 large-scale studies: one focused on dataset diversity, the other on annotator bias&lt;/li&gt;
+&lt;li&gt;Trained face classification models using real and synthetic facial datasets&lt;/li&gt;
+&lt;li&gt;Collected demographic annotations from participants with varying racial prejudice scores&lt;/li&gt;
+&lt;li&gt;Measured downstream effects on model performance, especially accuracy by race and ambiguity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;methods&#34;&gt;Methods&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Constructed racially diverse and imbalanced training datasets&lt;/li&gt;
+&lt;li&gt;Collected annotator ratings alongside implicit and explicit bias measures (e.g., IAT)&lt;/li&gt;
+&lt;li&gt;Trained models in &lt;strong&gt;Python&lt;/strong&gt; using standard deep learning pipelines&lt;/li&gt;
+&lt;li&gt;Analyzed data using &lt;strong&gt;R Studio&lt;/strong&gt; and Python (e.g., accuracy metrics, regression, SEM)&lt;/li&gt;
+&lt;li&gt;Conducted behavioral validation using perception studies of model outputs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Models trained on imbalanced datasets underperformed on underrepresented racial groups&lt;/li&gt;
+&lt;li&gt;Annotator prejudice significantly influenced labeling, which distorted model accuracy—especially for ambiguous faces&lt;/li&gt;
+&lt;li&gt;Racial ambiguity was often misclassified in ways that mirrored annotator bias&lt;/li&gt;
+&lt;li&gt;Human input—not model architecture—was the dominant source of inequality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;reflection&#34;&gt;Reflection&lt;/h3&gt;
+&lt;p&gt;This project deepened my interest in responsible AI and human-centered research design. It showed me how critical it is to understand social perception and psychological bias when working with real-world data and automated decision systems. I hope to apply these insights to improve transparency, fairness, and inclusivity in future research and UX strategy work.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;AI Bias · Human-AI Interaction · UX Research · Ethical AI · Dataset Design · Psychological Measurement · Algorithmic Fairness&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

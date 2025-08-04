@@ -5,12 +5,184 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Lee Qianqian Cui © 2024  </copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Lee Q. Cui © 2025  </copyright><lastBuildDate>Sat, 27 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu60761c8660dd385c9ef61215a2ff23d1_212698_512x512_fill_lanczos_center_3.png</url>
+      <url>/images/icon_hu0c096fd88411ae42cd0d948d93861e86_38487_512x512_fill_lanczos_center_3.png</url>
       <title></title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>How do people perceive and respond to social bias from humans versus AI?</title>
+      <link>/post/ai-dissertation/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>/post/ai-dissertation/</guid>
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AI systems increasingly make decisions with potential racial bias&lt;/li&gt;
+&lt;li&gt;Prior research shows mixed perceptions of AI bias versus human bias&lt;/li&gt;
+&lt;li&gt;This study tests emotional and cognitive responses to controlled bias vignettes&lt;/li&gt;
+&lt;li&gt;Racial identity of perceivers tested as a moderating factor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;N = 224 participants (52% female; 112 White, 112 non-White) recruited on Prolific&lt;/li&gt;
+&lt;li&gt;Participants randomly assigned to 1 of 8 conditions crossing:
+&lt;ul&gt;
+&lt;li&gt;Perpetrator type: Human (&amp;ldquo;Tod Smith&amp;rdquo;) vs AI (&amp;ldquo;TodSMith&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Bias explicitness: Blatant (explicit racial slurs) vs Subtle (neutral but unfair reason)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Vignettes depict biased hiring decisions in varied professional roles&lt;/li&gt;
+&lt;li&gt;Participants completed ratings on emotional upset, perceived racism, blame attribution (to perpetrator, trainer, society), and AI familiarity&lt;/li&gt;
+&lt;li&gt;Additional personality and prejudice motivation measures administered&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Participants more upset and perceived blatant bias as more racist than subtle bias (p &amp;lt; .001)&lt;/li&gt;
+&lt;li&gt;Humans blamed more than AI for bias, especially blatant bias (p &amp;lt; .01)&lt;/li&gt;
+&lt;li&gt;Trainers blamed more when AI perpetrated bias (p &amp;lt; .001)&lt;/li&gt;
+&lt;li&gt;No differences by participant race in upset or blame attribution&lt;/li&gt;
+&lt;li&gt;Non-White participants reported greater resentment than White participants (p &amp;lt; .01)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reflection&#34;&gt;Reflection&lt;/h2&gt;
+&lt;p&gt;This research reveals that people hold humans more accountable than AI for biased behavior, particularly when bias is explicit. Meanwhile, blame shifts to AI trainers, showing awareness of AI’s dependence on human input. The findings deepen understanding of social perceptions of algorithmic fairness and bias, informing ethical AI development and public communication strategies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How do government rulings shape public discourse and the emotional well-being of stigmatized communities?</title>
+      <link>/post/twitter/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/post/twitter/</guid>
+      <description>&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Supreme Court rulings in &lt;strong&gt;2013&lt;/strong&gt; and &lt;strong&gt;2015&lt;/strong&gt; served as key case studies&lt;/li&gt;
+&lt;li&gt;Twitter data from &lt;strong&gt;2012 to 2017&lt;/strong&gt; provided a longitudinal, naturalistic dataset&lt;/li&gt;
+&lt;li&gt;Tweets were filtered using hashtags such as &lt;code&gt;#SCOTUS&lt;/code&gt; and &lt;code&gt;#LoveWins&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Users were categorized based on profile cues (e.g., emojis, hashtags, bios)&lt;/li&gt;
+&lt;li&gt;Only everyday users (under 1,000 followers) were included to reduce bias from influencers or institutions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;methods&#34;&gt;Methods&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sentiment Analysis:&lt;/strong&gt; Used &lt;strong&gt;BERT&lt;/strong&gt;, a deep-learning NLP model, to analyze the emotional tone of tweets&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Categorization:&lt;/strong&gt; Grouped users into LGBTQ+ and non-LGBTQ+ based on profile indicators&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modeling:&lt;/strong&gt; Employed &lt;strong&gt;linear mixed-effects models (REML)&lt;/strong&gt; to analyze sentiment across months, focusing on the years 2013 and 2015&lt;/li&gt;
+&lt;li&gt;Included &lt;strong&gt;random intercepts and slopes&lt;/strong&gt; by month to capture variability in sentiment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Contrary to predictions&lt;/strong&gt;, LGBTQ+ tweets were &lt;strong&gt;more positive&lt;/strong&gt; on average than non-LGBTQ+ tweets in both 2013 and 2015&lt;/li&gt;
+&lt;li&gt;2013 Fixed Effect: &lt;code&gt;B = 0.152&lt;/code&gt;, &lt;code&gt;SE = 0.004&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;2015 Fixed Effect: &lt;code&gt;B = 0.156&lt;/code&gt;, &lt;code&gt;SE = 0.006&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Random Effects (2015):&lt;/strong&gt; June baseline sentiment (&lt;code&gt;Intercept = 0.0029&lt;/code&gt;) and LGBTQ+ slope (&lt;code&gt;0.0139&lt;/code&gt;) indicate elevated positivity during the ruling month&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Seasonal trends&lt;/strong&gt; observed, including a sentiment dip in 2016 (possibly linked to Trump’s election)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;reflection&#34;&gt;Reflection&lt;/h3&gt;
+&lt;p&gt;This study challenges assumptions about online sentiment as a direct reflection of lived disadvantage. LGBTQ+ users may express higher positivity due to community resilience, social norms around self-presentation, or differing patterns of social media engagement. It also raises questions about the role of digital spaces in coping with structural stigma and highlights the complexity of interpreting sentiment in marginalized groups.&lt;/p&gt;
+&lt;p&gt;Future directions include deeper subgroup analysis (e.g., gay vs. lesbian users), examining non-verbal cues (e.g., emoji use), and integrating offline mental health or well-being indicators where possible.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How do human social biases shape algorithmic decision-making?</title>
+      <link>/post/ai-face/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/post/ai-face/</guid>
+      <description>&lt;h3 id=&#34;how-do-human-social-biases-shape-algorithmic-decision-making&#34;&gt;How do human social biases shape algorithmic decision-making?&lt;/h3&gt;
+&lt;p&gt;While face classification models are often treated as neutral, their outputs are deeply influenced by biased human input. My dissertation explores how racial prejudice—encoded through dataset construction and annotation—drives inequality in AI-based face classification systems.&lt;/p&gt;
+&lt;p&gt;Funded and supported through multiple research grants, this project sits at the intersection of psychology, data science, and ethics. I investigated how racial diversity in datasets and annotator bias influence a model&amp;rsquo;s performance and decisions—especially for racially ambiguous faces.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2 large-scale studies: one focused on dataset diversity, the other on annotator bias&lt;/li&gt;
+&lt;li&gt;Trained face classification models using real and synthetic facial datasets&lt;/li&gt;
+&lt;li&gt;Collected demographic annotations from participants with varying racial prejudice scores&lt;/li&gt;
+&lt;li&gt;Measured downstream effects on model performance, especially accuracy by race and ambiguity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;methods&#34;&gt;Methods&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Constructed racially diverse and imbalanced training datasets&lt;/li&gt;
+&lt;li&gt;Collected annotator ratings alongside implicit and explicit bias measures (e.g., IAT)&lt;/li&gt;
+&lt;li&gt;Trained models in &lt;strong&gt;Python&lt;/strong&gt; using standard deep learning pipelines&lt;/li&gt;
+&lt;li&gt;Analyzed data using &lt;strong&gt;R Studio&lt;/strong&gt; and Python (e.g., accuracy metrics, regression, SEM)&lt;/li&gt;
+&lt;li&gt;Conducted behavioral validation using perception studies of model outputs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Models trained on imbalanced datasets underperformed on underrepresented racial groups&lt;/li&gt;
+&lt;li&gt;Annotator prejudice significantly influenced labeling, which distorted model accuracy—especially for ambiguous faces&lt;/li&gt;
+&lt;li&gt;Racial ambiguity was often misclassified in ways that mirrored annotator bias&lt;/li&gt;
+&lt;li&gt;Human input—not model architecture—was the dominant source of inequality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;reflection&#34;&gt;Reflection&lt;/h3&gt;
+&lt;p&gt;This project deepened my interest in responsible AI and human-centered research design. It showed me how critical it is to understand social perception and psychological bias when working with real-world data and automated decision systems. I hope to apply these insights to improve transparency, fairness, and inclusivity in future research and UX strategy work.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Tags:&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;AI Bias · Human-AI Interaction · UX Research · Ethical AI · Dataset Design · Psychological Measurement · Algorithmic Fairness&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How do cultural attitudes and gender shape sexual arousal responses?</title>
+      <link>/post/erosinm-database/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/post/erosinm-database/</guid>
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Most widely used erotic stimulus sets are Western-centric&lt;/li&gt;
+&lt;li&gt;Attitudes toward sex tend to be more conservative in East Asian cultures&lt;/li&gt;
+&lt;li&gt;Existing datasets lack adequate East Asian representation in erotic imagery&lt;/li&gt;
+&lt;li&gt;This research aimed to create a new validated dataset tailored for use in East Asian sexuality research&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Collected 237 erotic and 108 control images across 6 categories:
+&lt;ul&gt;
+&lt;li&gt;Dressed males (44), Semi-nude males (65), Nude males (64)&lt;/li&gt;
+&lt;li&gt;Dressed females (64), Semi-nude females (52), Nude females (56)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Participants: 40 heterosexual East Asian adults (20 men, 20 women)&lt;/li&gt;
+&lt;li&gt;Participants rated opposite-sex images on:
+&lt;ul&gt;
+&lt;li&gt;Sexual arousal&lt;/li&gt;
+&lt;li&gt;Pleasantness&lt;/li&gt;
+&lt;li&gt;Sexual attractiveness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ratings analyzed by gender and stimulus category&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Males&lt;/strong&gt; reported highest arousal, pleasantness, and attractiveness for &lt;strong&gt;nude female&lt;/strong&gt; images&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Females&lt;/strong&gt; reported highest arousal and positive responses for &lt;strong&gt;semi-nude male&lt;/strong&gt; images&lt;/li&gt;
+&lt;li&gt;Gender differences were consistent across categories&lt;/li&gt;
+&lt;li&gt;Ratings confirmed clear patterns of gender-specific preferences in erotic visual processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reflection&#34;&gt;Reflection&lt;/h2&gt;
+&lt;p&gt;This project contributes a validated, culturally sensitive erotic stimuli set for use in psychological and sexuality research involving East Asian populations. It underscores how culture and gender shape the perception of erotic content, with implications for cross-cultural studies in sexual function, emotion, and arousal. I’m especially interested in how this work intersects with broader themes in affective science, media perception, and cultural psychology.
+fferences by participant race in upset or blame attribution&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Non-White participants reported greater resentment than White participants (p &amp;lt; .01)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reflection-1&#34;&gt;Reflection&lt;/h2&gt;
+&lt;p&gt;This research reveals that people hold humans more accountable than AI for biased behavior, particularly when bias is explicit. Meanwhile, blame shifts to AI trainers, showing awareness of AI’s dependence on human input. The findings deepen understanding of social perceptions of algorithmic fairness and bias, informing ethical AI development and public communication strategies.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title></title>
