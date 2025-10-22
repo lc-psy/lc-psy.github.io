@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="This project explores how human bias in dataset selection and annotation fuels racial inequality in AI-based face classification systems.">
+  <meta name="description" content="This project integrates psychological measures of prejudice with deep learning pipelines to examine racial bias in facial recognition. Dataset imbalance and annotator prejudice drive racial bias in facial recognition more than model design.">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/ai-face/">
@@ -271,8 +271,8 @@
   
   <meta property="og:site_name" content="">
   <meta property="og:url" content="/post/ai-face/">
-  <meta property="og:title" content="How do human social biases shape algorithmic decision-making? | ">
-  <meta property="og:description" content="This project explores how human bias in dataset selection and annotation fuels racial inequality in AI-based face classification systems."><meta property="og:image" content="/post/ai-face/featured.jpg">
+  <meta property="og:title" content="Racial Bias in Facial Recognition: The Role of Training Data and Human Prejudice | ">
+  <meta property="og:description" content="This project integrates psychological measures of prejudice with deep learning pipelines to examine racial bias in facial recognition. Dataset imbalance and annotator prejudice drive racial bias in facial recognition more than model design."><meta property="og:image" content="/post/ai-face/featured.jpg">
   <meta property="twitter:image" content="/post/ai-face/featured.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -304,7 +304,7 @@
     "@type": "WebPage",
     "@id": "/post/ai-face/"
   },
-  "headline": "How do human social biases shape algorithmic decision-making?",
+  "headline": "Racial Bias in Facial Recognition: The Role of Training Data and Human Prejudice",
   
   "image": [
     "/post/ai-face/featured.jpg"
@@ -326,7 +326,7 @@
       "url": "/images/icon_hu0c096fd88411ae42cd0d948d93861e86_38487_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "This project explores how human bias in dataset selection and annotation fuels racial inequality in AI-based face classification systems."
+  "description": "This project integrates psychological measures of prejudice with deep learning pipelines to examine racial bias in facial recognition. Dataset imbalance and annotator prejudice drive racial bias in facial recognition more than model design."
 }
 </script>
 
@@ -344,7 +344,7 @@
 
 
 
-  <title>How do human social biases shape algorithmic decision-making? | </title>
+  <title>Racial Bias in Facial Recognition: The Role of Training Data and Human Prejudice | </title>
 
 </head>
 
@@ -573,6 +573,35 @@
         
 
         <li class="nav-item">
+          <a class="nav-link " href="/#other"><span>Other</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/#contact"><span>Contact</span></a>
         </li>
 
@@ -631,7 +660,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>How do human social biases shape algorithmic decision-making?</h1>
+  <h1>Racial Bias in Facial Recognition: The Role of Training Data and Human Prejudice</h1>
 
   
 
@@ -658,7 +687,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    11 min read
   </span>
   
 
@@ -734,40 +763,445 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h3 id="how-do-human-social-biases-shape-algorithmic-decision-making">How do human social biases shape algorithmic decision-making?</h3>
-<p>While face classification models are often treated as neutral, their outputs are deeply influenced by biased human input. My dissertation explores how racial prejudice—encoded through dataset construction and annotation—drives inequality in AI-based face classification systems.</p>
-<p>Funded and supported through multiple research grants, this project sits at the intersection of psychology, data science, and ethics. I investigated how racial diversity in datasets and annotator bias influence a model&rsquo;s performance and decisions—especially for racially ambiguous faces.</p>
-<hr>
-<h3 id="background">Background</h3>
+      <h3 id="i-classfas-fa-book-openi-summary"><i class="fas fa-book-open"></i> Summary</h3>
+<p>This dual-study project investigates how <strong>dataset imbalance</strong> and <strong>annotator prejudice</strong> contribute to racial bias in facial recognition systems.<br>
+Study 1 focuses on how training data diversity affects model performance across racial groups.<br>
+Study 2 examines how human bias in labeling influences classification accuracy, integrating psychological measures with deep learning pipelines.</p>
+<h3 id="i-classfas-fa-chart-linei-key-findings"><i class="fas fa-chart-line"></i> Key Findings</h3>
+<ol>
+<li><strong>Imbalanced datasets</strong> reduced categorization accuracy for underrepresented racial groups, especially racially ambiguous faces.</li>
+<li><strong>Annotator bias</strong> was embedded in the training pipeline, leading to misclassification patterns that reflected human prejudice.</li>
+</ol>
+<p><strong>Team &amp; Collaboration:</strong></p>
 <ul>
-<li>2 large-scale studies: one focused on dataset diversity, the other on annotator bias</li>
-<li>Trained face classification models using real and synthetic facial datasets</li>
-<li>Collected demographic annotations from participants with varying racial prejudice scores</li>
-<li>Measured downstream effects on model performance, especially accuracy by race and ambiguity</li>
+<li><strong>Jeff J. Berg</strong>, Ph.D., New York University</li>
+<li><strong>David M. Amodio</strong>, Ph.D., University of Amsterdam &amp; New York University</li>
 </ul>
-<hr>
-<h3 id="methods">Methods</h3>
+<h3 id="i-classfas-fa-exclamation-trianglei-challenge"><i class="fas fa-exclamation-triangle"></i> Challenge</h3>
 <ul>
-<li>Constructed racially diverse and imbalanced training datasets</li>
-<li>Collected annotator ratings alongside implicit and explicit bias measures (e.g., IAT)</li>
-<li>Trained models in <strong>Python</strong> using standard deep learning pipelines</li>
-<li>Analyzed data using <strong>R Studio</strong> and Python (e.g., accuracy metrics, regression, SEM)</li>
-<li>Conducted behavioral validation using perception studies of model outputs</li>
+<li><strong>Data imbalance:</strong> Creating racially diverse datasets while maintaining authenticity and avoiding synthetic overcorrection.</li>
+<li><strong>Human bias in labeling:</strong> Annotator prejudice directly affected data quality, introducing systematic bias into model training.</li>
+<li><strong>Complex modeling:</strong> Integrating behavioral data (e.g., prejudice measures, IAT scores) with neural network outputs required cross-platform pipelines in Python and R.</li>
+<li><strong>Ethical design:</strong> Balancing the need for demographic annotation with participant privacy and psychological sensitivity.</li>
 </ul>
-<hr>
-<h3 id="results">Results</h3>
+<h3 id="i-classfas-fa-toolsi-solutions-to-the-challenge"><i class="fas fa-tools"></i> Solutions to the challenge</h3>
 <ul>
-<li>Models trained on imbalanced datasets underperformed on underrepresented racial groups</li>
-<li>Annotator prejudice significantly influenced labeling, which distorted model accuracy—especially for ambiguous faces</li>
-<li>Racial ambiguity was often misclassified in ways that mirrored annotator bias</li>
-<li>Human input—not model architecture—was the dominant source of inequality</li>
+<li>Designed a <strong>balanced sampling pipeline</strong> to ensure proportional racial representation in training data.</li>
+<li>Used <strong>annotator bias metrics</strong> (implicit and explicit) to statistically control labeling effects.</li>
+<li>Combined <strong>deep learning models</strong> in Python with <strong>R-based analyses</strong> (SEM, regression) for multi-level validation.</li>
+<li>Conducted <strong>behavioral perception studies</strong> to test how human observers perceived model outputs, validating algorithmic findings.</li>
 </ul>
-<hr>
-<h3 id="reflection">Reflection</h3>
-<p>This project deepened my interest in responsible AI and human-centered research design. It showed me how critical it is to understand social perception and psychological bias when working with real-world data and automated decision systems. I hope to apply these insights to improve transparency, fairness, and inclusivity in future research and UX strategy work.</p>
-<hr>
-<p><strong>Tags:</strong><br>
-<em>AI Bias · Human-AI Interaction · UX Research · Ethical AI · Dataset Design · Psychological Measurement · Algorithmic Fairness</em></p>
+<h3 id="i-classfas-fa-bullseyei-goal"><i class="fas fa-bullseye"></i> Goal</h3>
+<p>To understand how <strong>human cognitive and social biases</strong> shape the fairness of AI models—bridging psychology and computer vision to uncover where inequality truly originates in algorithmic decision-making.</p>
+<h3 id="i-classfas-fa-medali-why-it-matters"><i class="fas fa-medal"></i> Why it matters</h3>
+<ul>
+<li>Reveals how <strong>bias originates in human labeling</strong>, not just in algorithms.</li>
+<li>Provides insight for building <strong>responsible, fair, and interpretable AI systems</strong>.</li>
+<li>Encourages interdisciplinary collaboration between <strong>psychology and machine learning</strong> to design socially aware technologies.</li>
+</ul>
+<h3 id="i-classfas-fa-bullseyei-goal-1"><i class="fas fa-bullseye"></i> Goal</h3>
+<p>To uncover how <strong>human cognitive and social biases</strong> shape fairness in AI—bridging psychology and computer vision to identify where inequality originates in algorithmic decision-making.</p>
+<h2 id="i-classfas-fa-microscopei-study-1-2-dataset-imbalance"><i class="fas fa-microscope"></i> Study 1-2: Dataset Imbalance</h2>
+<h3 id="i-classfas-fa-exclamation-trianglei-challenge-1"><i class="fas fa-exclamation-triangle"></i> Challenge</h3>
+<ul>
+<li>Building racially diverse datasets without synthetic overcorrection.</li>
+<li>Preserving authenticity while balancing demographic representation.</li>
+<li>Navigating ethical concerns around demographic annotation and privacy.</li>
+</ul>
+<h3 id="i-classfas-fa-toolsi-solutions"><i class="fas fa-tools"></i> Solutions</h3>
+<ul>
+<li>Designed a <strong>balanced sampling pipeline</strong> to ensure proportional racial representation.</li>
+<li>Used a mix of <strong>real and synthetic facial images</strong>, carefully annotated for race and ambiguity.</li>
+<li>Validated dataset composition with external demographic benchmarks.</li>
+</ul>
+<p align="center">
+  <img src="/img/plots/dataset-compositions.png" alt="Dataset composition overview" width="600"><br>
+  <em>The racial compositions of the most popular publicly available face image datasets
+with race annotations.</em>
+</p>
+<p><br><br></p>
+<h3 id="i-classfas-fa-codei-research-process"><i class="fas fa-code"></i> Research Process</h3>
+<h4 id="stage-1-identifying-the-problem">Stage 1: Identifying the Problem</h4>
+<ul>
+<li><strong>Challenge:</strong> Automated face classification models frequently misclassify non-White faces due to biased training datasets.</li>
+<li><strong>Key Question:</strong> How does <strong>dataset racial balance</strong> affect a model’s ability to accurately classify both monoracial and mixed-race faces?</li>
+<li><strong>Psychological Context:</strong> Reflects findings from <strong>social categorization research</strong>—biased exposure skews perceptual boundaries, analogous to biased data exposure in AI.</li>
+</ul>
+<h4 id="stage-2-developing-the-study-design">Stage 2: Developing the Study Design</h4>
+<ul>
+<li><strong>Objective:</strong> Examine how dataset diversity, independent of dataset size, influences classification performance.</li>
+<li><strong>Approach:</strong>
+<ul>
+<li><em>Study 1:</em> Tested overall race/gender classification accuracy across datasets.</li>
+<li><em>Study 2:</em> Examined <strong>racial ambiguity</strong> via mixed-race face morphs.</li>
+</ul>
+</li>
+<li><strong>Datasets:</strong>
+<ul>
+<li><strong>UTKFace:</strong> ~23,000 images, overrepresenting White and male faces.</li>
+<li><strong>FairFace:</strong> ~108,000 images balanced across racial and gender categories.</li>
+</ul>
+</li>
+<li><strong>Programming Environment:</strong>
+<ul>
+<li>Implemented in <strong>Python</strong> using <strong>PyTorch</strong> (for deep learning) and <strong>NumPy / Pandas</strong> (for data handling).</li>
+<li>Visualizations generated with <strong>Matplotlib</strong> and <strong>Seaborn</strong> for plotting classification accuracy and with <strong>R</strong> and <strong>quickpsy</strong> package for PSE curves.</li>
+</ul>
+</li>
+<li><strong>Model Architecture:</strong> All experiments used <strong>ResNet-50</strong>, pretrained on ImageNet, retrained on customized datasets.</li>
+</ul>
+<p align="center">
+  <img src="/img/plots/utk-ff.png" alt="Model performance comparison (UTKFace vs FairFace)" width="600"><br>
+  <em> Demographic composition of the original UTKFace dataset (FForiginal) and the original
+FairFace (UTKoriginal) dataset.</em>
+</p>
+<h3 id="stage-3-dataset-training"><strong>Stage 3: Dataset Training</strong></h3>
+<ul>
+<li>Gathered <strong>40,000+</strong> face images from both UTKFace and FairFace.</li>
+<li>Constructed <strong>balanced and size-matched subsets</strong> to disentangle effects of diversity vs. dataset size.</li>
+<li>Generated <strong>mixed-race face morphs</strong> (Black↔White continuum) for Study 2 to test classification thresholds.</li>
+</ul>
+<h3 id="stage-4-analysis"><strong>Stage 4: Analysis</strong></h3>
+<ul>
+<li><strong>Metrics:</strong>
+<ul>
+<li>Race and gender classification accuracy.</li>
+<li>Race × gender interaction effects.</li>
+<li><strong>Point of Subjective Equality (PSE):</strong> Morph level where faces are equally likely to be labeled Black or White.</li>
+</ul>
+</li>
+<li><strong>Comparisons:</strong>
+<ul>
+<li>UTKFace vs. FairFace models.</li>
+<li>Balanced vs. unbalanced subsets.</li>
+<li>Male vs. female face classifications.</li>
+</ul>
+</li>
+</ul>
+<h4 id="more-on-analysis-strategy">More on analysis strategy</h4>
+<ul>
+<li>Generated racially ambiguous faces  using webmorph.org by Dr. Lisa DeBruine</li>
+<li>Quantified the effect of dataset diversity on classification of racially ambiguous faces using <strong>Points of Subjective Equality (PSEs)</strong>.</li>
+<li>PSE indicates the morph point at which a face is equally likely to be classified as Black or White:
+<ul>
+<li>50% PSE → classification matches morph composition.</li>
+<li>&lt;50% PSE → face is classified as Black with less than 50% Black content (hypodescent pattern).</li>
+</ul>
+</li>
+<li>Computed PSEs for two models trained on different datasets (UTKoriginal vs. FForiginal) to assess dataset influence.</li>
+<li>Analyses implemented in R using the <strong>quickpsy</strong> package.</li>
+</ul>
+<h3 id="stage-5-results"><strong>Stage 5: Results</strong></h3>
+<ul>
+<li><strong>Accuracy:</strong> Balanced datasets (FairFace) produced <strong>higher cross-group accuracy</strong> and fewer racial misclassifications.</li>
+<li><strong>Bias Direction:</strong> UTKFace-trained models showed <strong>systematic over-classification of White faces</strong> and under-classification of Black faces.</li>
+<li><strong>Ambiguity Sensitivity:</strong>
+<ul>
+<li>Imbalanced models classified mixed-race faces as White until ~70–80% Black composition.</li>
+<li>Balanced models’ PSEs approached 50%, aligning more closely with perceptual reality.</li>
+</ul>
+</li>
+<li><strong>Stability:</strong> PSE values ranged widely (30–93%) across data subsets, showing <strong>extreme sensitivity to sampling bias</strong>.</li>
+</ul>
+<p align="center">
+  <img src="/img/plots/dataset-morph.png" alt="Dataset morphing examples" width="600"><br>
+  <em>Example of White and Black race classification probabilities for a single face morph
+spectrum (as classified by the UTKoriginal model).</em>
+</p>
+<p><br><br></p>
+<p align="center">
+  <img src="/img/plots/dataset-pse.png" alt="Dataset PSE distribution" width="600"><br>
+  <em>Separate PSE curves for the model trained on the original UTKFace dataset
+(UTKoriginal) and the model trained on the original FairFace dataset (F Foriginal), separately for male
+faces and for female faces. The error bars represent the 95% confidence interval around the PSE
+for each gender category.</em>
+</p>
+<p><br><br></p>
+<h3 id="stage-6-interpretation"><strong>Stage 6: Interpretation</strong></h3>
+<ul>
+<li><strong>Core Finding:</strong> Dataset racial diversity—not size—determines fairness and perceptual accuracy.</li>
+<li><strong>Psychological Parallel:</strong> Similar to <strong>own-race bias</strong> in human face perception—exposure diversity improves perceptual generalization.</li>
+<li><strong>UX Implication:</strong> Data representativeness is a <strong>design decision</strong>, shaping user-facing fairness and trust outcomes.</li>
+<li><strong>Ethical Takeaway:</strong> Diversity audits should be built into the dataset design process, much like user diversity testing in UX workflows.</li>
+</ul>
+<h2 id="i-classfas-fa-microscopei-study-3-annotator-prejudice-propagation"><i class="fas fa-microscope"></i> STUDY 3: Annotator Prejudice Propagation</h2>
+<h3 id="i-classfas-fa-exclamation-trianglei-challenge-2"><i class="fas fa-exclamation-triangle"></i> Challenge</h3>
+<ul>
+<li>Capturing human bias in labeling without contaminating ground truth.</li>
+<li>Integrating psychological data with machine learning pipelines.</li>
+<li>Ensuring cross-platform compatibility between behavioral and computational tools.</li>
+</ul>
+<h3 id="i-classfas-fa-toolsi-solutions-1"><i class="fas fa-tools"></i> Solutions</h3>
+<ul>
+<li>Collected <strong>implicit and explicit bias measures</strong> (e.g., IAT, prejudice scales).</li>
+<li>Statistically controlled for annotator bias in labeling outcomes.</li>
+<li>Combined <strong>Python-based modeling</strong> with <strong>R-based SEM and regression</strong> for multi-level analysis.</li>
+<li>Conducted <strong>behavioral perception studies</strong> to validate algorithmic outputs.</li>
+</ul>
+<h3 id="i-classfas-fa-codei-research-process-1"><i class="fas fa-code"></i> Research Process</h3>
+<h3 id="stage-1-identifying-the-problem-1"><strong>Stage 1: Identifying the Problem</strong></h3>
+<ul>
+<li><strong>Challenge:</strong> Even with balanced datasets, <strong>human labelers</strong> may inject bias through subjective demographic judgments.</li>
+<li><strong>Key Question:</strong> How do <strong>individual prejudice levels</strong> among annotators affect the racial labeling of faces and downstream model behavior?</li>
+<li><strong>Psychological Context:</strong> Builds on decades of research showing that prejudice alters <strong>categorical perception</strong> and <strong>ambiguous face processing</strong>.</li>
+</ul>
+<h3 id="stage-2-developing-the-study-design-1"><strong>Stage 2: Developing the Study Design</strong></h3>
+<ul>
+<li><strong>Objective:</strong> Quantify how <strong>annotator racial prejudice</strong> influences face classification models.</li>
+<li><strong>Approach:</strong>
+<ul>
+<li>Recruit annotators with varying prejudice levels (measured via validated psychological scales).</li>
+<li>Have each group label identical faces by race.</li>
+<li>Train models separately on <strong>high-prejudice</strong> and <strong>low-prejudice</strong> label sets.</li>
+</ul>
+</li>
+<li><strong>Focus:</strong> Observe how label bias affects both accuracy and sensitivity to racial ambiguity.</li>
+</ul>
+<p align="center">
+  <img src="/img/plots/annotator-procedure.png" alt="Annotator procedure diagram" width="600"><br>
+  <em>Schematic design of the study's face label division and model-training processes.</em>
+</p>
+<p><br><br></p>
+<h3 id="stage-3-data-collection"><strong>Stage 3: Data Collection</strong></h3>
+<ul>
+<li>
+<p><strong>Recruitment Platform:</strong><br>
+Participants were recruited via <strong>Amazon Mechanical Turk (MTurk)</strong> using the <strong>Cloud Research platform</strong>, which ensured high-quality data collection and demographic diversity across annotators.</p>
+</li>
+<li>
+<p><strong>Target Structure:</strong><br>
+The study aimed to obtain <strong>at least 10 annotators per image set</strong>, with 100 unique image sets total (each set included 160 images, representing every combination of race × gender).</p>
+</li>
+<li>
+<p><strong>Final Sample Size:</strong></p>
+<ul>
+<li><strong>Total Recruited:</strong> 1,203 annotators</li>
+<li><strong>Valid Participants after exclusions:</strong> 1,196</li>
+<li><strong>Label Output:</strong> 192,480 race labels and 192,480 gender labels</li>
+</ul>
+</li>
+<li>
+<p><strong>Annotator Demographics:</strong></p>
+<ul>
+<li><strong>Gender:</strong> 539 female, 648 male, 9 non-binary or other</li>
+<li><strong>Race:</strong>
+<ul>
+<li>953 White</li>
+<li>100 Black</li>
+<li>21 Chinese</li>
+<li>13 Asian Indian</li>
+<li>12 Filipino</li>
+<li>10 Korean</li>
+<li>31 “Other”</li>
+<li>56 Multiracial</li>
+</ul>
+</li>
+<li><strong>Age:</strong> Mean = 39.5 years, SD = 11.3 (Range: 19–79)</li>
+</ul>
+</li>
+<li>
+<p><strong>Analytic Subsample for Focal Analyses:</strong><br>
+To examine the effects of <strong>racial prejudice on labeling and model bias</strong>, only <strong>White monoracial annotators (N = 953)</strong> were included in the main analysis. This decision follows precedent from social perception literature that focuses on how dominant-group biases influence classification accuracy.</p>
+</li>
+<li>
+<p><strong>Annotator Assessments:</strong><br>
+Each annotator completed a <strong>demographic, experiential, and psychological profile</strong> including measures of racial attitudes and prejudice.</p>
+<ul>
+<li><strong>Key Psychological Variable:</strong> Self-reported racial prejudice, assessed through <strong>feeling thermometers</strong> toward four racial groups (White, Black, East Asian, South Asian).</li>
+<li><strong>Derived Index:</strong> The prejudice score was computed as the difference between warmth toward Whites and the mean warmth toward non-White groups, where higher scores indicate greater prejudice.</li>
+</ul>
+</li>
+<li>
+<p><strong>Programming Environment:</strong><br>
+Data collection and stimulus presentation were implemented using a <strong>Python-Flask web interface (see screenshot below)</strong>.</p>
+</li>
+<li>
+<p><strong>Analytic Note:</strong><br>
+The data collection design allowed the creation of separate face label datasets (high-prejudice vs. low-prejudice), enabling causal testing of how <strong>annotator bias propagates through training data</strong> into <strong>algorithmic classification errors</strong>.</p>
+</li>
+</ul>
+<p align="center">
+  <img src="/img/plots/annotation-task.png" alt="" width="1000"><br>
+  <em>Screenshot of web interface for Annotation Task</em>
+</p>
+<p align="center">
+  <img src="/img/plots/annotator-accuracy.png" alt="Annotator accuracy plot" width="600"><br>
+  <em>Race-specific race classification accuracy rates for the high-prejudice model and low-
+prejudice model, when tested on the held-aside test set with labels from the same annotator
+groups (high-prejudice versus low-prejudice). The error bars represent the 95% confidence
+interval around the average accuracy rate for a given combination of face classification model
+and racial group..</em>
+</p>
+<h3 id="stage-4-analysis-1"><strong>Stage 4: Analysis</strong></h3>
+<ul>
+<li><strong>Programming Tools:</strong>
+<ul>
+<li>Python (PyTorch, Pandas).</li>
+<li>Statistical comparisons using <strong>R</strong> (for between-group analyses and significance testing).</li>
+</ul>
+</li>
+<li><strong>Metrics:</strong>
+<ul>
+<li>Race classification accuracy on held-out data.</li>
+<li>Accuracy on mid-prejudice label validation sets.</li>
+<li><strong>PSE curves</strong> for mixed-race morph stimuli.</li>
+<li>Label agreement rates across annotator groups.</li>
+</ul>
+</li>
+<li><strong>Analytic Comparisons:</strong>
+<ul>
+<li>High- vs. low-prejudice models.</li>
+<li>Accuracy differences by race category.</li>
+<li>Boundary shifts in ambiguous classification (PSE displacement).</li>
+</ul>
+</li>
+<li><strong>PSE Score Analysis Plan</strong>
+<ul>
+<li>PSEs were <strong>computed for each morph continuum</strong> and then <strong>averaged within each model</strong> type:
+<ul>
+<li>Mean PSE for <strong>low-prejudice model</strong></li>
+<li>Mean PSE for <strong>high-prejudice model</strong></li>
+</ul>
+</li>
+<li>Used <strong>nonparametric bootstrapping (1,000 samples)</strong> to estimate <strong>95% CIs</strong> and compare mean PSEs.</li>
+<li>Model differences inferred from <strong>non-overlapping confidence intervals</strong>.</li>
+</ul>
+</li>
+</ul>
+<h4 id="analysis-detail">Analysis Detail</h4>
+<ul>
+<li>Generated racially ambiguous faces  using webmorph.org by Dr. Lisa DeBruine</li>
+<li>Quantified the effect of dataset diversity on classification of racially ambiguous faces using <strong>Points of Subjective Equality (PSEs)</strong>.</li>
+<li>PSE indicates the morph point at which a face is equally likely to be classified as Black or White:
+<ul>
+<li>50% PSE → classification matches morph composition.</li>
+<li>&lt;50% PSE → face is classified as Black with less than 50% Black content (hypodescent pattern).</li>
+</ul>
+</li>
+<li>Computed PSEs for two models trained on different datasets (UTKoriginal vs. FForiginal) to assess dataset influence.</li>
+<li>Analyses implemented in R using the <strong>quickpsy</strong> package.</li>
+</ul>
+<p align="center">
+  <img src="/img/plots/annotator-pse.png" alt="Annotator PSE estimates" width="600"><br>
+  <em>PSE curves for the model trained on the high-prejudice annotator labels (high-
+prejudice model) and the model trained on the low-prejudice annotator labels (low-prejudice
+model). The error bars represent the 95% confidence interval around the PSE for each model.</em>
+</p>
+<p><br><br></p>
+<h3 id="stage-5-results-1"><strong>Stage 5: Results</strong></h3>
+<ul>
+<li>
+<p><strong>Race Classification Accuracy:</strong></p>
+<ul>
+<li>Significant main effect of <strong>face race</strong> on accuracy (χ² = 36.6, <em>p</em> &lt; .001).</li>
+<li><strong>Average accuracy across models:</strong>
+<ul>
+<li>Black faces — <strong>79.6%</strong></li>
+<li>White faces — <strong>75.4%</strong></li>
+<li>East Asian faces — <strong>64.1%</strong></li>
+<li>South Asian faces — <strong>58.6%</strong></li>
+</ul>
+</li>
+<li><strong>Model × Face Race Interaction:</strong> χ² = 30.4, <em>p</em> &lt; .001
+<ul>
+<li><strong>Low-prejudice model:</strong> 85.1% accuracy for Black faces (95% CI [81.9%, 87.7%])</li>
+<li><strong>High-prejudice model:</strong> 72.7% accuracy for Black faces (95% CI [69.0%, 76.1%])</li>
+<li>Difference significant at <em>p</em> &lt; .001</li>
+</ul>
+</li>
+<li>No significant accuracy differences for White (<em>p</em> = .982), East Asian (<em>p</em> = .344), or South Asian (<em>p</em> = .088) faces.</li>
+</ul>
+</li>
+<li>
+<p><strong>Ambiguity Sensitivity (PSE Analysis):</strong></p>
+<ul>
+<li>Analyzed 4,180 Black–White morph images ranging from 0–100% racial composition.</li>
+<li>PSE = morph level with equal (.5) classification probability for Black vs. White.</li>
+<li><strong>High-prejudice model:</strong>
+<ul>
+<li>Showed <strong>lower PSE</strong>, labeling faces as “Black” even with less Black facial content.</li>
+<li>Reflected a <strong>steeper, more categorical boundary</strong> in race perception.</li>
+</ul>
+</li>
+<li><strong>Low-prejudice model:</strong>
+<ul>
+<li>Displayed <strong>smoother, more continuous PSE transitions</strong>, indicating flexible boundary detection and higher fairness in ambiguous classifications.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Bias Propagation:</strong></p>
+<ul>
+<li>Annotator-level prejudice measurably altered the <strong>model’s internal race classification boundary</strong>.</li>
+<li>Bias effects were <strong>strongest for Black faces</strong>, consistent with U.S. racial salience hierarchies.</li>
+<li>Demonstrated that <strong>social bias is not random noise—it’s a quantifiable variable that directly impacts model performance.</strong></li>
+<li>Models trained on low-prejudice labels showed <strong>better cross-racial generalization</strong> when tested on mixed-prejudice label sets.</li>
+</ul>
+</li>
+</ul>
+<h3 id="stage-6-interpretation-1"><strong>Stage 6: Interpretation</strong></h3>
+<ul>
+<li>
+<p><strong>Core Insight:</strong><br>
+Human social prejudices are systematically transmitted to machine learning systems through the labeling process, shaping how algorithms perceive and categorize race.</p>
+</li>
+<li>
+<p><strong>Psychological Parallel:</strong><br>
+Mirrors cognitive findings that <strong>implicit and explicit prejudice narrow perceptual boundaries</strong>—machines “inherit” this perceptual compression when trained on biased human data.</p>
+</li>
+<li>
+<p><strong>Technical Implication:</strong><br>
+Even identical architectures (ResNet-50) diverge in fairness outcomes solely due to <strong>human label source differences</strong>—emphasizing that <strong>training data quality is a psychological, not just computational, variable.</strong></p>
+</li>
+<li>
+<p><strong>UX and Ethical Design Lesson:</strong></p>
+<ul>
+<li>Treat <strong>data annotation</strong> as a <strong>human-factors design challenge</strong> rather than a purely technical step.</li>
+<li>Implement <strong>bias audits</strong>, <strong>annotator diversity training</strong>, and <strong>label documentation</strong> as part of UX-oriented ethical curation workflows.</li>
+<li>Integrate fairness monitoring early in model development—analogous to <strong>usability testing</strong> in UX research.</li>
+</ul>
+</li>
+</ul>
+<h3 id="stage-7-broader-implications"><strong>Stage 7: Broader Implications</strong></h3>
+<p>The study offers empirical evidence that <strong>reducing human prejudice in labeling improves algorithmic fairness</strong>, demonstrating how psychology and machine learning must co-design ethical AI systems.</p>
+<h3 id="i-classfas-fa-toolboxi-programming--tools-summary"><i class="fas fa-toolbox"></i> <strong>Programming &amp; Tools Summary</strong></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Stage</th>
+<th style="text-align:left">Programming Language/Software</th>
+<th style="text-align:left">Key Libraries / Methods</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Data Collection</strong></td>
+<td style="text-align:left">Python(Flask Web App), HTML/CSS</td>
+<td style="text-align:left">Flask for task interface; data hosted via Cloud Research/MTurk integration</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Data  Cleaning</strong></td>
+<td style="text-align:left">Python</td>
+<td style="text-align:left">Pandas, NumPy, regex for preprocessing and cleaning annotator label files</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Model Training &amp; Evaluation</strong></td>
+<td style="text-align:left">Python</td>
+<td style="text-align:left">PyTorch for ResNet-50 training</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Statistical Analysis</strong></td>
+<td style="text-align:left">R &amp; Python</td>
+<td style="text-align:left">R (<code>quickpsy</code>), Python (SciPy, bootstrapping routines) for accuracy and R (quickpsy) PSE comparisons</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Visualization</strong></td>
+<td style="text-align:left">Python &amp; R</td>
+<td style="text-align:left"><code>Matplotlib</code>, <code>quickpsy</code> and <code>ggplot2</code> for plotting classification accuracy and PSE curves</td>
+</tr>
+</tbody>
+</table>
 
     </div>
 
@@ -796,7 +1230,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/post/ai-face/&amp;text=How%20do%20human%20social%20biases%20shape%20algorithmic%20decision-making?" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/post/ai-face/&amp;text=Racial%20Bias%20in%20Facial%20Recognition:%20The%20Role%20of%20Training%20Data%20and%20Human%20Prejudice" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -809,7 +1243,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/post/ai-face/&amp;t=How%20do%20human%20social%20biases%20shape%20algorithmic%20decision-making?" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/post/ai-face/&amp;t=Racial%20Bias%20in%20Facial%20Recognition:%20The%20Role%20of%20Training%20Data%20and%20Human%20Prejudice" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -822,7 +1256,7 @@
       
       
       <li>
-        <a href="mailto:?subject=How%20do%20human%20social%20biases%20shape%20algorithmic%20decision-making?&amp;body=/post/ai-face/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Racial%20Bias%20in%20Facial%20Recognition:%20The%20Role%20of%20Training%20Data%20and%20Human%20Prejudice&amp;body=/post/ai-face/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -835,7 +1269,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/post/ai-face/&amp;title=How%20do%20human%20social%20biases%20shape%20algorithmic%20decision-making?" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/post/ai-face/&amp;title=Racial%20Bias%20in%20Facial%20Recognition:%20The%20Role%20of%20Training%20Data%20and%20Human%20Prejudice" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -848,7 +1282,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=How%20do%20human%20social%20biases%20shape%20algorithmic%20decision-making?%20/post/ai-face/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Racial%20Bias%20in%20Facial%20Recognition:%20The%20Role%20of%20Training%20Data%20and%20Human%20Prejudice%20/post/ai-face/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -861,7 +1295,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/post/ai-face/&amp;title=How%20do%20human%20social%20biases%20shape%20algorithmic%20decision-making?" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/post/ai-face/&amp;title=Racial%20Bias%20in%20Facial%20Recognition:%20The%20Role%20of%20Training%20Data%20and%20Human%20Prejudice" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

@@ -5,7 +5,7 @@
     <link>/tag/linear-mixed-models/</link>
       <atom:link href="/tag/linear-mixed-models/index.xml" rel="self" type="application/rss+xml" />
     <description>Linear Mixed Models</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Lee Q. Cui © 2025  </copyright><lastBuildDate>Sat, 27 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Lee Q. Cui © 2025  </copyright><lastBuildDate>Wed, 27 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0c096fd88411ae42cd0d948d93861e86_38487_512x512_fill_lanczos_center_3.png</url>
       <title>Linear Mixed Models</title>
@@ -13,80 +13,214 @@
     </image>
     
     <item>
-      <title>How do people perceive and respond to social bias from humans versus AI?</title>
-      <link>/post/ai-dissertation/</link>
-      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>/post/ai-dissertation/</guid>
-      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;AI systems increasingly make decisions with potential racial bias&lt;/li&gt;
-&lt;li&gt;Prior research shows mixed perceptions of AI bias versus human bias&lt;/li&gt;
-&lt;li&gt;This study tests emotional and cognitive responses to controlled bias vignettes&lt;/li&gt;
-&lt;li&gt;Racial identity of perceivers tested as a moderating factor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;N = 224 participants (52% female; 112 White, 112 non-White) recruited on Prolific&lt;/li&gt;
-&lt;li&gt;Participants randomly assigned to 1 of 8 conditions crossing:
-&lt;ul&gt;
-&lt;li&gt;Perpetrator type: Human (&amp;ldquo;Tod Smith&amp;rdquo;) vs AI (&amp;ldquo;TodSMith&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;Bias explicitness: Blatant (explicit racial slurs) vs Subtle (neutral but unfair reason)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Vignettes depict biased hiring decisions in varied professional roles&lt;/li&gt;
-&lt;li&gt;Participants completed ratings on emotional upset, perceived racism, blame attribution (to perpetrator, trainer, society), and AI familiarity&lt;/li&gt;
-&lt;li&gt;Additional personality and prejudice motivation measures administered&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Participants more upset and perceived blatant bias as more racist than subtle bias (p &amp;lt; .001)&lt;/li&gt;
-&lt;li&gt;Humans blamed more than AI for bias, especially blatant bias (p &amp;lt; .01)&lt;/li&gt;
-&lt;li&gt;Trainers blamed more when AI perpetrated bias (p &amp;lt; .001)&lt;/li&gt;
-&lt;li&gt;No differences by participant race in upset or blame attribution&lt;/li&gt;
-&lt;li&gt;Non-White participants reported greater resentment than White participants (p &amp;lt; .01)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;reflection&#34;&gt;Reflection&lt;/h2&gt;
-&lt;p&gt;This research reveals that people hold humans more accountable than AI for biased behavior, particularly when bias is explicit. Meanwhile, blame shifts to AI trainers, showing awareness of AI’s dependence on human input. The findings deepen understanding of social perceptions of algorithmic fairness and bias, informing ethical AI development and public communication strategies.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How do government rulings influence public discourse and the emotional well-being of stigmatized communities?</title>
+      <title>NLP-Driven Insights into Queer Sentiment During Legal Milestones</title>
       <link>/post/twitter/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
       <guid>/post/twitter/</guid>
-      <description>&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;i-classfas-fa-book-openi-summary&#34;&gt;&lt;i class=&#34;fas fa-book-open&#34;&gt;&lt;/i&gt; Summary:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Supreme Court rulings in &lt;strong&gt;2013&lt;/strong&gt; and &lt;strong&gt;2015&lt;/strong&gt; served as key case studies&lt;/li&gt;
-&lt;li&gt;Twitter data from &lt;strong&gt;2012 to 2017&lt;/strong&gt; provided a longitudinal, naturalistic dataset&lt;/li&gt;
-&lt;li&gt;Tweets were filtered using hashtags such as &lt;code&gt;#SCOTUS&lt;/code&gt; and &lt;code&gt;#LoveWins&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Users were categorized based on profile cues (e.g., emojis, hashtags, bios)&lt;/li&gt;
-&lt;li&gt;Only everyday users (under 1,000 followers) were included to reduce bias from influencers or institutions&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Leveraging advanced natural language processing techniques, this project investigates long-term emotional expression among openly queer users on &lt;strong&gt;Twitter (now X.com&lt;/strong&gt;) from 2012 to 2017. The analysis spans two landmark U.S. Supreme Court rulings on same-sex marriage (2013, 2015), revealing how sentiment patterns evolved in response to major sociopolitical events.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chart-line&#34;&gt;&lt;/i&gt; &lt;strong&gt;Key findings&lt;/strong&gt;: LGBTQ+ users expressed more positive emotions than non-LGBTQ+ users, suggesting emotional resilience and the supportive nature of digital communities during major political events.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;methods&#34;&gt;Methods&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Team &amp;amp; Collaboration:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Sentiment Analysis:&lt;/strong&gt; Used &lt;strong&gt;BERT&lt;/strong&gt;, a deep-learning NLP model, to analyze the emotional tone of tweets&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Categorization:&lt;/strong&gt; Grouped users into LGBTQ+ and non-LGBTQ+ based on profile indicators&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Modeling:&lt;/strong&gt; Employed &lt;strong&gt;linear mixed-effects models (REML)&lt;/strong&gt; to analyze sentiment across months, focusing on the years 2013 and 2015&lt;/li&gt;
-&lt;li&gt;Included &lt;strong&gt;random intercepts and slopes&lt;/strong&gt; by month to capture variability in sentiment&lt;/li&gt;
+&lt;li&gt;Kyle Ratner Ph.D. UC Santa Barbara&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;h3 id=&#34;i-classfas-fa-exclamation-trianglei-challenge&#34;&gt;&lt;i class=&#34;fas fa-exclamation-triangle&#34;&gt;&lt;/i&gt; Challenge&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Contrary to predictions&lt;/strong&gt;, LGBTQ+ tweets were &lt;strong&gt;more positive&lt;/strong&gt; on average than non-LGBTQ+ tweets in both 2013 and 2015&lt;/li&gt;
-&lt;li&gt;2013 Fixed Effect: &lt;code&gt;B = 0.152&lt;/code&gt;, &lt;code&gt;SE = 0.004&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;2015 Fixed Effect: &lt;code&gt;B = 0.156&lt;/code&gt;, &lt;code&gt;SE = 0.006&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Random Effects (2015):&lt;/strong&gt; June baseline sentiment (&lt;code&gt;Intercept = 0.0029&lt;/code&gt;) and LGBTQ+ slope (&lt;code&gt;0.0139&lt;/code&gt;) indicate elevated positivity during the ruling month&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Seasonal trends&lt;/strong&gt; observed, including a sentiment dip in 2016 (possibly linked to Trump’s election)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Identifying relevant users:&lt;/strong&gt; I needed a rough but reasonable way to detect Twitter users who were &lt;strong&gt;openly LGBTQ+&lt;/strong&gt; or discussing their identity (e.g., using &lt;strong&gt;emojis&lt;/strong&gt;, &lt;strong&gt;hashtags&lt;/strong&gt;, or self-descriptions such as 🏳️‍🌈).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Establishing user-centered relevance:&lt;/strong&gt; The study addresses a &lt;strong&gt;research gap&lt;/strong&gt; in understanding how &lt;strong&gt;queer emotional expression evolves over time&lt;/strong&gt; in response to sociopolitical events — a need often overlooked in &lt;strong&gt;sentiment and visibility research&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data scale and accessibility:&lt;/strong&gt; Managing &lt;strong&gt;millions of tweets&lt;/strong&gt; required building a &lt;strong&gt;custom web scraper&lt;/strong&gt; and designing &lt;strong&gt;efficient data pipelines&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computational constraints:&lt;/strong&gt; Running &lt;strong&gt;BERT-based sentiment analysis&lt;/strong&gt; on such a large dataset demanded &lt;strong&gt;substantial compute resources&lt;/strong&gt; and &lt;strong&gt;optimization strategies&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;reflection&#34;&gt;Reflection&lt;/h3&gt;
-&lt;p&gt;This study challenges assumptions about online sentiment as a direct reflection of lived disadvantage. LGBTQ+ users may express higher positivity due to community resilience, social norms around self-presentation, or differing patterns of social media engagement. It also raises questions about the role of digital spaces in coping with structural stigma and highlights the complexity of interpreting sentiment in marginalized groups.&lt;/p&gt;
-&lt;p&gt;Future directions include deeper subgroup analysis (e.g., gay vs. lesbian users), examining non-verbal cues (e.g., emoji use), and integrating offline mental health or well-being indicators where possible.&lt;/p&gt;
+&lt;h3 id=&#34;i-classfas-fa-toolsi-solutions-to-the-challenge&#34;&gt;&lt;i class=&#34;fas fa-tools&#34;&gt;&lt;/i&gt; Solutions to the challenge&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;User detection pipeline:&lt;/strong&gt; Wrote &lt;strong&gt;custom Python scripts&lt;/strong&gt; to extract user profile metadata and identify openly LGBTQ+ users based on &lt;strong&gt;self-descriptions&lt;/strong&gt;, &lt;strong&gt;emojis&lt;/strong&gt;, and &lt;strong&gt;hashtags&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web scraping infrastructure:&lt;/strong&gt; Customized the open-source &lt;strong&gt;Twint package&lt;/strong&gt; to build a &lt;strong&gt;scalable Twitter scraper&lt;/strong&gt;, distributed across &lt;strong&gt;multiple lab machines&lt;/strong&gt; for &lt;strong&gt;parallel data collection&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;High-performance sentiment analysis:&lt;/strong&gt; Leveraged &lt;strong&gt;UCSB’s High Performance Computing (HPC) cluster&lt;/strong&gt; to run &lt;strong&gt;BERT-based sentiment models&lt;/strong&gt; efficiently, overcoming the limitations of &lt;strong&gt;personal hardware&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;i-classfas-fa-bullseyei-goal&#34;&gt;&lt;i class=&#34;fas fa-bullseye&#34;&gt;&lt;/i&gt; Goal&lt;/h3&gt;
+&lt;p&gt;At its core, the goal was to &lt;strong&gt;understand the affective experiences of LGBTQ+ users&lt;/strong&gt; through their &lt;strong&gt;digital expressions&lt;/strong&gt; — seeing &lt;strong&gt;online sentiment&lt;/strong&gt; as one potential signal of &lt;strong&gt;long-term well-being&lt;/strong&gt; in the face of &lt;strong&gt;systemic change&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;i-classfas-fa-medali-why-it-matters&#34;&gt;&lt;i class=&#34;fas fa-medal&#34;&gt;&lt;/i&gt; Why it matters&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand how government rulings shape public discourse and online emotions.&lt;/li&gt;
+&lt;li&gt;Explore whether structural events like court rulings contribute to community resilience or distress among stigmatized groups.&lt;/li&gt;
+&lt;li&gt;Assess whether sentiment on social media can serve as a proxy for public well-being.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;i-classfas-fa-codei-research-process&#34;&gt;&lt;i class=&#34;fas fa-code&#34;&gt;&lt;/i&gt; Research Process&lt;/h3&gt;
+&lt;h4 id=&#34;stage-1-identifying-the-problem&#34;&gt;&lt;strong&gt;Stage 1: Identifying the Problem&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Reviewed prior literature showing that &lt;strong&gt;queer individuals report higher rates of depression, anxiety, and reduced emotional well-being&lt;/strong&gt;, often linked to &lt;strong&gt;structural stigma&lt;/strong&gt; and &lt;strong&gt;social exclusion&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Noted that &lt;strong&gt;major legal rulings&lt;/strong&gt;—such as those affirming same-sex marriage—can shift &lt;strong&gt;public norms&lt;/strong&gt;, reduce &lt;strong&gt;perceived stigma&lt;/strong&gt;, and potentially promote &lt;strong&gt;better mental health outcomes&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Identified a gap in existing research: while emotional spikes around rulings are well-documented, few studies examine &lt;strong&gt;long-term emotional trajectories&lt;/strong&gt; among &lt;strong&gt;stigmatized communities&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Hypothesized that following landmark rulings, &lt;strong&gt;openly queer users&lt;/strong&gt; would display &lt;strong&gt;more positive sentiment&lt;/strong&gt; in the years after the ruling compared to the years before—reflecting increased &lt;strong&gt;visibility&lt;/strong&gt;, &lt;strong&gt;solidarity&lt;/strong&gt;, and &lt;strong&gt;resilience&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Defined the central research question:
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;How does queer emotional expression shift online in response to major government rulings??&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;stage-2-study-design&#34;&gt;Stage 2: Study Design&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;User focus:&lt;/strong&gt; Targeted &lt;strong&gt;everyday openly LGBTQ+ users&lt;/strong&gt; with fewer than 1,000 followers to minimize bias from influencers or institutional accounts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;User categorization:&lt;/strong&gt; Identified &lt;strong&gt;openly LGBTQ+ users&lt;/strong&gt; through profile cues such as &lt;strong&gt;emojis&lt;/strong&gt;, &lt;strong&gt;hashtags&lt;/strong&gt;, and &lt;strong&gt;bio descriptions&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pilot phase:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tested keyword filters and categorization logic on small data subsets.&lt;/li&gt;
+&lt;li&gt;Refined classification to ensure clear differentiation between &lt;strong&gt;user types&lt;/strong&gt; and &lt;strong&gt;ruling periods&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Data Collection Strategy:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Scraped tweets referencing key rulings using hashtags like &lt;code&gt;#SCOTUS&lt;/code&gt; and &lt;code&gt;#LoveWins&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Compiled a list of users who engaged with these rulings.&lt;/li&gt;
+&lt;li&gt;Scraped &lt;strong&gt;all tweets from these users between 2012–2017&lt;/strong&gt;, forming a longitudinal dataset.&lt;/li&gt;
+&lt;li&gt;Processed tweets using &lt;strong&gt;BERT&lt;/strong&gt; to generate a &lt;strong&gt;sentiment score&lt;/strong&gt; for each tweet.&lt;/li&gt;
+&lt;li&gt;Calculated &lt;strong&gt;average sentiment scores per user per year&lt;/strong&gt; (2012–2017).&lt;/li&gt;
+&lt;li&gt;Categorized users’ sexual orientation based on &lt;strong&gt;profile cues&lt;/strong&gt; (e.g., 🌈 emojis, hashtags, bios) and &lt;strong&gt;tweet content&lt;/strong&gt; (e.g., “coming out”).&lt;/li&gt;
+&lt;li&gt;Included only &lt;strong&gt;non-influencer accounts&lt;/strong&gt; (&amp;lt;1,000 followers) to preserve everyday emotional expression.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;/img/plots/twitter-design.png&#34; alt=&#34;Dataset composition overview&#34; width=&#34;1000&#34;&gt;&lt;br&gt;
+  &lt;em&gt;Schematic Design&lt;/em&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;i-classfas-fa-cogsi-stage-3-data-collection&#34;&gt;&lt;i class=&#34;fas fa-cogs&#34;&gt;&lt;/i&gt; Stage 3: Data Collection&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Programming Language:&lt;/strong&gt; &lt;strong&gt;Python&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Libraries &amp;amp; Tools:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Twint&lt;/strong&gt; + &lt;strong&gt;Twitter API&lt;/strong&gt; for data scraping&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pandas&lt;/strong&gt;, &lt;strong&gt;NumPy&lt;/strong&gt; for data cleaning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI’s BERT&lt;/strong&gt; for sentiment scoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Collected &lt;strong&gt;~12 million tweets&lt;/strong&gt; from &lt;strong&gt;2950users (1520 openly LGBTQ+ users)&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;All users tweeted at least once per year from 2012 to 2017&lt;/li&gt;
+&lt;li&gt;Users identified through hashtags like &lt;code&gt;#SCOTUS&lt;/code&gt; and &lt;code&gt;#LoveWins&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Inclusion criteria: Tweeted at least once per year (2012–2017), with U.S. location specified.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Category Identification:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Users self-identified as openly LGBTQ+ via emojis, profile text, or hashtags (e.g., 🏳️‍🌈).&lt;/li&gt;
+&lt;li&gt;Others classified as non-openly LGBTQ+ as a comparison group.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Final Dataset for Analysis:&lt;/strong&gt; Focused on &lt;strong&gt;2013 and 2015&lt;/strong&gt;, the two key ruling years.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;i-classfas-fa-chart-bari-stage-4-analysis&#34;&gt;&lt;i class=&#34;fas fa-chart-bar&#34;&gt;&lt;/i&gt; &lt;strong&gt;Stage 4: Analysis&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sentiment Scoring:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;BERT model fine-tuned for sentiment classification.&lt;/li&gt;
+&lt;li&gt;Tokenized tweets → context-aware embeddings → sentiment scores (−1 = negative; +1 = positive).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Statistical Modeling:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear Mixed Models in R.&lt;/li&gt;
+&lt;li&gt;Random intercepts for “username” to capture within-user variation.&lt;/li&gt;
+&lt;li&gt;Fixed effects: Month, Category (LGBTQ+ vs. Non-LGBTQ+), and their interaction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analytic Focus:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Temporal trends in positivity.&lt;/li&gt;
+&lt;li&gt;Comparison across ruling months (especially June, July).&lt;/li&gt;
+&lt;li&gt;Evaluation of within-group sentiment variability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;i-classfas-fa-chart-linei-stage-5-results&#34;&gt;&lt;i class=&#34;fas fa-chart-line&#34;&gt;&lt;/i&gt; &lt;strong&gt;Stage 5: Results&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;2013-ruling&#34;&gt;&lt;strong&gt;2013 Ruling&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Openly LGBTQ+ tweets were &lt;strong&gt;more positive overall&lt;/strong&gt; (β = 0.1651, &lt;em&gt;p&lt;/em&gt; &amp;lt; .001).&lt;/li&gt;
+&lt;li&gt;Significant &lt;strong&gt;monthly variation&lt;/strong&gt;, with peaks around &lt;strong&gt;June–August&lt;/strong&gt; (the ruling period).&lt;/li&gt;
+&lt;li&gt;However, from &lt;strong&gt;July–October&lt;/strong&gt;, LGBTQ+ sentiment &lt;strong&gt;declined&lt;/strong&gt;, showing less positivity than non-LGBTQ+ users.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interpretation:&lt;/strong&gt; The initial uplift from the ruling might have been tempered by backlash, social debate, or continuing discrimination.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2015-ruling&#34;&gt;&lt;strong&gt;2015 Ruling&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Openly  LGBTQ+ users again showed &lt;strong&gt;higher baseline positivity&lt;/strong&gt; (β = 0.156, &lt;em&gt;p&lt;/em&gt; &amp;lt; .001).&lt;/li&gt;
+&lt;li&gt;Sentiment rose in &lt;strong&gt;June&lt;/strong&gt; (ruling month) but &lt;strong&gt;dropped sharply July–December&lt;/strong&gt; (βs between −0.02 to −0.04, &lt;em&gt;p&lt;/em&gt; &amp;lt; .001).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Possible Explanation:&lt;/strong&gt; Post-ruling backlash or lingering interpersonal discrimination may have dampened long-term emotional benefits.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Additionally, seasonal trends were observed, including a sentiment dip in 2016 (possibly linked to Trump’s election)&lt;/p&gt;
+&lt;div style=&#34;margin-left: 2em; margin-top: 1em;&#34;&gt;
+  &lt;h4 style=&#34;margin-bottom: 0.3em;&#34;&gt;Interactive Visualization of Sentiment Trends (2012–2017)&lt;/h4&gt;
+  &lt;p style=&#34;font-size: 0.9em; color: #666; margin-top: 0;&#34;&gt;
+    Explore monthly sentiment patterns among LGBTQ+ and non-LGBTQ+ users before and after key Supreme Court rulings.  
+    &lt;em&gt;Hover over the plot to view average sentiment scores and sentiment shifts&lt;/em&gt;&lt;br&gt;
+    &lt;a href=&#34;/img/plots/bar-plot.html&#34; target=&#34;_blank&#34; style=&#34;font-size: 0.9em; color: #007acc; text-decoration: none;&#34;&gt;
+      🔍 Open in full screen
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;iframe 
+    src=&#34;/img/plots/bar-plot.html&#34;
+    width=&#34;1300&#34;
+    height=&#34;500&#34;
+    style=&#34;border:none; margin-left: -15em; margin-top: 0.5em; max-width: 200%;&#34;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;stage-6-interpretation&#34;&gt;&lt;strong&gt;Stage 6: Interpretation&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Unexpected Finding:&lt;/strong&gt; LGBTQ+ tweets were generally &lt;strong&gt;more positive overall&lt;/strong&gt;, contradicting assumptions about persistent negative affect due to marginalization.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Possible Explanation:&lt;/strong&gt; Reflects &lt;strong&gt;community resilience&lt;/strong&gt; and positive self-expression patterns online.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Psychological Context:&lt;/strong&gt; Aligns with research showing &lt;strong&gt;minority group resilience&lt;/strong&gt; (e.g., Crocker et al., 1994).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Temporal Dynamics:&lt;/strong&gt; Institutional recognition (rulings) may &lt;strong&gt;shift perceived norms&lt;/strong&gt; rather than emotional tone—positivity spikes may be short-lived.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Social Implications:&lt;/strong&gt; Legal wins may not immediately alleviate interpersonal discrimination or structural stigma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;i-classfas-fa-lightbulbi-reflection&#34;&gt;&lt;i class=&#34;fas fa-lightbulb&#34;&gt;&lt;/i&gt; Reflection&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The study highlights how &lt;strong&gt;digital platforms serve as emotional ecosystems&lt;/strong&gt;—spaces for both coping and celebration.&lt;/li&gt;
+&lt;li&gt;Offers evidence that social media can amplify positive affect within stigmatized communities following structural change.&lt;/li&gt;
+&lt;li&gt;Future steps include:
+&lt;ul&gt;
+&lt;li&gt;Comparing emotional trends across &lt;strong&gt;specific LGBTQ+ subgroups&lt;/strong&gt; (e.g., gay vs. lesbian users).&lt;/li&gt;
+&lt;li&gt;Exploring &lt;strong&gt;non-verbal communication&lt;/strong&gt; (emoji use, visual media).&lt;/li&gt;
+&lt;li&gt;Linking online sentiment to &lt;strong&gt;offline well-being indicators&lt;/strong&gt; (e.g., community health metrics, survey data).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;i-classfas-fa-toolboxi-programming--tools-summary&#34;&gt;&lt;i class=&#34;fas fa-toolbox&#34;&gt;&lt;/i&gt; &lt;strong&gt;Programming &amp;amp; Tools Summary&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Stage&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Programming Language&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Key Libraries / Methods&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Data Collection&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Python&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Twint, Twitter API&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Data Cleaning&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Python&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Pandas, NumPy, regex&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Sentiment Analysis&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Python&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;BERT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Statistical Analysis &amp;amp; Visualization&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;R &amp;amp; Python&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;statsmodels&lt;/code&gt;, &lt;code&gt;lme4&lt;/code&gt;, &lt;code&gt;scipy&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     
