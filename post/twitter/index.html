@@ -761,7 +761,44 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h3 id="i-classfas-fa-book-openi-summary"><i class="fas fa-book-open"></i> Summary:</h3>
+      <nav id="TableOfContents" class="nav flex-column">
+  <div class="toc-header">
+    <h2>Roadmap</h2>
+  </div>
+  <div class="toc-body">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#i-classfas-fa-book-openi-summary"><i class="fas fa-book-open"></i> Summary:</a>
+      <ul>
+        <li><a href="#i-classfas-fa-exclamation-trianglei-challenge"><i class="fas fa-exclamation-triangle"></i> Challenge</a></li>
+        <li><a href="#i-classfas-fa-toolsi-solutions-to-the-challenge"><i class="fas fa-tools"></i> Solutions to the challenge</a></li>
+        <li><a href="#i-classfas-fa-bullseyei-goal"><i class="fas fa-bullseye"></i> Goal</a></li>
+        <li><a href="#i-classfas-fa-medali-why-it-matters"><i class="fas fa-medal"></i> Why it matters</a></li>
+      </ul>
+    </li>
+    <li><a href="#i-classfas-fa-codei-research-process"><i class="fas fa-code"></i> Research Process</a>
+      <ul>
+        <li><a href="#stage-1-identifying-the-problem">Stage 1: Identifying the Problem</a></li>
+        <li><a href="#stage-2-study-design">Stage 2: Study Design</a></li>
+        <li><a href="#stage-3-data-collection">Stage 3: Data Collection</a></li>
+        <li><a href="#stage-4-analysis">Stage 4: Analysis</a></li>
+        <li><a href="#stage-5-results">Stage 5: Results</a>
+          <ul>
+            <li><a href="#2013-ruling">2013 Ruling</a></li>
+            <li><a href="#2015-ruling">2015 Ruling</a></li>
+          </ul>
+        </li>
+        <li><a href="#stage-6-interpretation">Stage 6: Interpretation</a></li>
+      </ul>
+    </li>
+    <li><a href="#i-classfas-fa-lightbulbi-reflection"><i class="fas fa-lightbulb"></i> Reflection</a></li>
+    <li><a href="#i-classfas-fa-toolboxi-programming--tools-summary"><i class="fas fa-toolbox"></i> Programming &amp; Tools Summary</a></li>
+  </ul>
+</nav>
+  </div>
+</nav>
+
+<h1 id="i-classfas-fa-book-openi-summary"><i class="fas fa-book-open"></i> Summary:</h1>
 <ul>
 <li>
 <p>Leveraging advanced natural language processing techniques, this project investigates long-term emotional expression among openly queer users on <strong>Twitter (now X.com</strong>) from 2012 to 2017. The analysis spans two landmark U.S. Supreme Court rulings on same-sex marriage (2013, 2015), revealing how sentiment patterns evolved in response to major sociopolitical events.</p>
@@ -774,29 +811,29 @@
 <ul>
 <li>Kyle Ratner Ph.D. UC Santa Barbara</li>
 </ul>
-<h3 id="i-classfas-fa-exclamation-trianglei-challenge"><i class="fas fa-exclamation-triangle"></i> Challenge</h3>
+<h2 id="i-classfas-fa-exclamation-trianglei-challenge"><i class="fas fa-exclamation-triangle"></i> Challenge</h2>
 <ul>
 <li><strong>Identifying relevant users:</strong> I needed a rough but reasonable way to detect Twitter users who were <strong>openly LGBTQ+</strong> or discussing their identity (e.g., using <strong>emojis</strong>, <strong>hashtags</strong>, or self-descriptions such as 🏳️‍🌈).</li>
 <li><strong>Establishing user-centered relevance:</strong> The study addresses a <strong>research gap</strong> in understanding how <strong>queer emotional expression evolves over time</strong> in response to sociopolitical events — a need often overlooked in <strong>sentiment and visibility research</strong>.</li>
 <li><strong>Data scale and accessibility:</strong> Managing <strong>millions of tweets</strong> required building a <strong>custom web scraper</strong> and designing <strong>efficient data pipelines</strong>.</li>
 <li><strong>Computational constraints:</strong> Running <strong>BERT-based sentiment analysis</strong> on such a large dataset demanded <strong>substantial compute resources</strong> and <strong>optimization strategies</strong>.</li>
 </ul>
-<h3 id="i-classfas-fa-toolsi-solutions-to-the-challenge"><i class="fas fa-tools"></i> Solutions to the challenge</h3>
+<h2 id="i-classfas-fa-toolsi-solutions-to-the-challenge"><i class="fas fa-tools"></i> Solutions to the challenge</h2>
 <ul>
 <li><strong>User detection pipeline:</strong> Wrote <strong>custom Python scripts</strong> to extract user profile metadata and identify openly LGBTQ+ users based on <strong>self-descriptions</strong>, <strong>emojis</strong>, and <strong>hashtags</strong>.</li>
 <li><strong>Web scraping infrastructure:</strong> Customized the open-source <strong>Twint package</strong> to build a <strong>scalable Twitter scraper</strong>, distributed across <strong>multiple lab machines</strong> for <strong>parallel data collection</strong>.</li>
 <li><strong>High-performance sentiment analysis:</strong> Leveraged <strong>UCSB’s High Performance Computing (HPC) cluster</strong> to run <strong>BERT-based sentiment models</strong> efficiently, overcoming the limitations of <strong>personal hardware</strong>.</li>
 </ul>
-<h3 id="i-classfas-fa-bullseyei-goal"><i class="fas fa-bullseye"></i> Goal</h3>
+<h2 id="i-classfas-fa-bullseyei-goal"><i class="fas fa-bullseye"></i> Goal</h2>
 <p>At its core, the goal was to <strong>understand the affective experiences of LGBTQ+ users</strong> through their <strong>digital expressions</strong> — seeing <strong>online sentiment</strong> as one potential signal of <strong>long-term well-being</strong> in the face of <strong>systemic change</strong>.</p>
-<h3 id="i-classfas-fa-medali-why-it-matters"><i class="fas fa-medal"></i> Why it matters</h3>
+<h2 id="i-classfas-fa-medali-why-it-matters"><i class="fas fa-medal"></i> Why it matters</h2>
 <ul>
 <li>Understand how government rulings shape public discourse and online emotions.</li>
 <li>Explore whether structural events like court rulings contribute to community resilience or distress among stigmatized groups.</li>
 <li>Assess whether sentiment on social media can serve as a proxy for public well-being.</li>
 </ul>
-<h3 id="i-classfas-fa-codei-research-process"><i class="fas fa-code"></i> Research Process</h3>
-<h4 id="stage-1-identifying-the-problem"><strong>Stage 1: Identifying the Problem</strong></h4>
+<h1 id="i-classfas-fa-codei-research-process"><i class="fas fa-code"></i> Research Process</h1>
+<h2 id="stage-1-identifying-the-problem">Stage 1: Identifying the Problem</h2>
 <ul>
 <li>Reviewed prior literature showing that <strong>queer individuals report higher rates of depression, anxiety, and reduced emotional well-being</strong>, often linked to <strong>structural stigma</strong> and <strong>social exclusion</strong>.</li>
 <li>Noted that <strong>major legal rulings</strong>—such as those affirming same-sex marriage—can shift <strong>public norms</strong>, reduce <strong>perceived stigma</strong>, and potentially promote <strong>better mental health outcomes</strong>.</li>
@@ -808,7 +845,7 @@
 </blockquote>
 </li>
 </ul>
-<h4 id="stage-2-study-design">Stage 2: Study Design</h4>
+<h2 id="stage-2-study-design">Stage 2: Study Design</h2>
 <ul>
 <li><strong>User focus:</strong> Targeted <strong>everyday openly LGBTQ+ users</strong> with fewer than 1,000 followers to minimize bias from influencers or institutional accounts.</li>
 <li><strong>User categorization:</strong> Identified <strong>openly LGBTQ+ users</strong> through profile cues such as <strong>emojis</strong>, <strong>hashtags</strong>, and <strong>bio descriptions</strong>.</li>
@@ -833,7 +870,7 @@
   <img src="/img/plots/twitter-design.png" alt="Dataset composition overview" width="1000"><br>
   <em>Schematic Design</em>
 </p>
-<h4 id="i-classfas-fa-cogsi-stage-3-data-collection"><i class="fas fa-cogs"></i> Stage 3: Data Collection</h4>
+<h2 id="stage-3-data-collection">Stage 3: Data Collection</h2>
 <p><strong>Programming Language:</strong> <strong>Python</strong></p>
 <ul>
 <li><strong>Libraries &amp; Tools:</strong>
@@ -859,7 +896,7 @@
 </li>
 <li><strong>Final Dataset for Analysis:</strong> Focused on <strong>2013 and 2015</strong>, the two key ruling years.</li>
 </ul>
-<h4 id="i-classfas-fa-chart-bari-stage-4-analysis"><i class="fas fa-chart-bar"></i> <strong>Stage 4: Analysis</strong></h4>
+<h2 id="stage-4-analysis">Stage 4: Analysis</h2>
 <ul>
 <li><strong>Sentiment Scoring:</strong>
 <ul>
@@ -882,15 +919,15 @@
 </ul>
 </li>
 </ul>
-<h3 id="i-classfas-fa-chart-linei-stage-5-results"><i class="fas fa-chart-line"></i> <strong>Stage 5: Results</strong></h3>
-<h4 id="2013-ruling"><strong>2013 Ruling</strong></h4>
+<h2 id="stage-5-results">Stage 5: Results</h2>
+<h3 id="2013-ruling">2013 Ruling</h3>
 <ul>
 <li>Openly LGBTQ+ tweets were <strong>more positive overall</strong> (β = 0.1651, <em>p</em> &lt; .001).</li>
 <li>Significant <strong>monthly variation</strong>, with peaks around <strong>June–August</strong> (the ruling period).</li>
 <li>However, from <strong>July–October</strong>, LGBTQ+ sentiment <strong>declined</strong>, showing less positivity than non-LGBTQ+ users.</li>
 <li><strong>Interpretation:</strong> The initial uplift from the ruling might have been tempered by backlash, social debate, or continuing discrimination.</li>
 </ul>
-<h4 id="2015-ruling"><strong>2015 Ruling</strong></h4>
+<h3 id="2015-ruling">2015 Ruling</h3>
 <ul>
 <li>Openly  LGBTQ+ users again showed <strong>higher baseline positivity</strong> (β = 0.156, <em>p</em> &lt; .001).</li>
 <li>Sentiment rose in <strong>June</strong> (ruling month) but <strong>dropped sharply July–December</strong> (βs between −0.02 to −0.04, <em>p</em> &lt; .001).</li>
@@ -913,7 +950,7 @@
     style="border:none; margin-left: -15em; margin-top: 0.5em; max-width: 200%;">
   </iframe>
 </div>
-<h3 id="stage-6-interpretation"><strong>Stage 6: Interpretation</strong></h3>
+<h2 id="stage-6-interpretation">Stage 6: Interpretation</h2>
 <ul>
 <li><strong>Unexpected Finding:</strong> LGBTQ+ tweets were generally <strong>more positive overall</strong>, contradicting assumptions about persistent negative affect due to marginalization.</li>
 <li><strong>Possible Explanation:</strong> Reflects <strong>community resilience</strong> and positive self-expression patterns online.</li>
@@ -921,7 +958,7 @@
 <li><strong>Temporal Dynamics:</strong> Institutional recognition (rulings) may <strong>shift perceived norms</strong> rather than emotional tone—positivity spikes may be short-lived.</li>
 <li><strong>Social Implications:</strong> Legal wins may not immediately alleviate interpersonal discrimination or structural stigma.</li>
 </ul>
-<h3 id="i-classfas-fa-lightbulbi-reflection"><i class="fas fa-lightbulb"></i> Reflection</h3>
+<h1 id="i-classfas-fa-lightbulbi-reflection"><i class="fas fa-lightbulb"></i> Reflection</h1>
 <ul>
 <li>The study highlights how <strong>digital platforms serve as emotional ecosystems</strong>—spaces for both coping and celebration.</li>
 <li>Offers evidence that social media can amplify positive affect within stigmatized communities following structural change.</li>
@@ -933,7 +970,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="i-classfas-fa-toolboxi-programming--tools-summary"><i class="fas fa-toolbox"></i> <strong>Programming &amp; Tools Summary</strong></h3>
+<h1 id="i-classfas-fa-toolboxi-programming--tools-summary"><i class="fas fa-toolbox"></i> Programming &amp; Tools Summary</h1>
 <table>
 <thead>
 <tr>

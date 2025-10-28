@@ -761,11 +761,74 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h3 id="i-classfas-fa-book-openi-summary"><i class="fas fa-book-open"></i> Summary</h3>
+      <nav id="TableOfContents" class="nav flex-column">
+  <div class="toc-header">
+    <h2>Roadmap</h2>
+  </div>
+  <div class="toc-body">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#i-classfas-fa-book-openi-summary"><i class="fas fa-book-open"></i> Summary</a>
+      <ul>
+        <li><a href="#i-classfas-fa-chart-linei-key-findings"><i class="fas fa-chart-line"></i> Key Findings</a></li>
+        <li><a href="#i-classfas-fa-bullseyei-goal"><i class="fas fa-bullseye"></i> Goal</a></li>
+        <li><a href="#i-classfas-fa-medali-why-it-matters"><i class="fas fa-medal"></i> Why it matters</a></li>
+        <li><a href="#i-classfas-fa-exclamation-trianglei-challenge"><i class="fas fa-exclamation-triangle"></i> Challenge</a></li>
+        <li><a href="#i-classfas-fa-toolsi-solutions-to-the-challenge"><i class="fas fa-tools"></i> Solutions to the challenge</a></li>
+      </ul>
+    </li>
+    <li><a href="#i-classfas-fa-microscopei-study-1-2-dataset-imbalance"><i class="fas fa-microscope"></i> Study 1-2: Dataset Imbalance</a>
+      <ul>
+        <li><a href="#i-classfas-fa-exclamation-trianglei-challenge-1"><i class="fas fa-exclamation-triangle"></i> Challenge</a></li>
+        <li><a href="#i-classfas-fa-toolsi-solutions"><i class="fas fa-tools"></i> Solutions</a></li>
+        <li><a href="#i-classfas-fa-codei-research-process"><i class="fas fa-code"></i> Research Process</a>
+          <ul>
+            <li><a href="#stage-1-identifying-the-problem">Stage 1: Identifying the Problem</a></li>
+            <li><a href="#stage-2-developing-the-study-design">Stage 2: Developing the Study Design</a></li>
+            <li><a href="#stage-3-dataset-training">Stage 3: Dataset Training</a></li>
+            <li><a href="#stage-4-analysis">Stage 4: Analysis</a>
+              <ul>
+                <li><a href="#more-on-analysis-strategy">More on analysis strategy</a></li>
+              </ul>
+            </li>
+            <li><a href="#stage-5-results">Stage 5: Results</a></li>
+            <li><a href="#stage-6-interpretation">Stage 6: Interpretation</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#i-classfas-fa-microscopei-study-3-annotator-prejudice-propagation"><i class="fas fa-microscope"></i> STUDY 3: Annotator Prejudice Propagation</a>
+      <ul>
+        <li><a href="#i-classfas-fa-exclamation-trianglei-challenge-2"><i class="fas fa-exclamation-triangle"></i> Challenge</a></li>
+        <li><a href="#i-classfas-fa-toolsi-solutions-1"><i class="fas fa-tools"></i> Solutions</a></li>
+        <li><a href="#i-classfas-fa-codei-research-process-1"><i class="fas fa-code"></i> Research Process</a>
+          <ul>
+            <li><a href="#stage-1-identifying-the-problem-1">Stage 1: Identifying the Problem</a></li>
+            <li><a href="#stage-2-developing-the-study-design-1">Stage 2: Developing the Study Design</a></li>
+            <li><a href="#stage-3-data-collection">Stage 3: Data Collection</a></li>
+            <li><a href="#stage-4-analysis-1">Stage 4: Analysis</a>
+              <ul>
+                <li><a href="#analysis-detail">Analysis Detail</a></li>
+              </ul>
+            </li>
+            <li><a href="#stage-5-results-1">Stage 5: Results</a></li>
+            <li><a href="#stage-6-interpretation-1">Stage 6: Interpretation</a></li>
+            <li><a href="#stage-7-broader-implications">Stage 7: Broader Implications</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#i-classfas-fa-toolboxi-programming--tools-summary"><i class="fas fa-toolbox"></i> Programming &amp; Tools Summary</a></li>
+  </ul>
+</nav>
+  </div>
+</nav>
+
+<h1 id="i-classfas-fa-book-openi-summary"><i class="fas fa-book-open"></i> Summary</h1>
 <p>This dual-study project investigates how <strong>dataset imbalance</strong> and <strong>annotator prejudice</strong> contribute to racial bias in facial recognition systems.<br>
 Study 1 focuses on how training data diversity affects model performance across racial groups.<br>
 Study 2 examines how human bias in labeling influences classification accuracy, integrating psychological measures with deep learning pipelines.</p>
-<h3 id="i-classfas-fa-chart-linei-key-findings"><i class="fas fa-chart-line"></i> Key Findings</h3>
+<h2 id="i-classfas-fa-chart-linei-key-findings"><i class="fas fa-chart-line"></i> Key Findings</h2>
 <ol>
 <li><strong>Imbalanced datasets</strong> reduced categorization accuracy for underrepresented racial groups, especially racially ambiguous faces.</li>
 <li><strong>Annotator bias</strong> was embedded in the training pipeline, leading to misclassification patterns that reflected human prejudice.</li>
@@ -775,38 +838,36 @@ Study 2 examines how human bias in labeling influences classification accuracy, 
 <li><strong>Jeff J. Berg</strong>, Ph.D., New York University</li>
 <li><strong>David M. Amodio</strong>, Ph.D., University of Amsterdam &amp; New York University</li>
 </ul>
-<h3 id="i-classfas-fa-exclamation-trianglei-challenge"><i class="fas fa-exclamation-triangle"></i> Challenge</h3>
+<h2 id="i-classfas-fa-bullseyei-goal"><i class="fas fa-bullseye"></i> Goal</h2>
+<p>To understand how <strong>human cognitive and social biases</strong> shape the fairness of AI models—bridging psychology and computer vision to uncover where inequality truly originates in algorithmic decision-making.</p>
+<h2 id="i-classfas-fa-medali-why-it-matters"><i class="fas fa-medal"></i> Why it matters</h2>
+<ul>
+<li>Reveals how <strong>bias originates in human labeling</strong>, not just in algorithms.</li>
+<li>Provides insight for building <strong>responsible, fair, and interpretable AI systems</strong>.</li>
+<li>Encourages interdisciplinary collaboration between <strong>psychology and machine learning</strong> to design socially aware technologies.</li>
+</ul>
+<h2 id="i-classfas-fa-exclamation-trianglei-challenge"><i class="fas fa-exclamation-triangle"></i> Challenge</h2>
 <ul>
 <li><strong>Data imbalance:</strong> Creating racially diverse datasets while maintaining authenticity and avoiding synthetic overcorrection.</li>
 <li><strong>Human bias in labeling:</strong> Annotator prejudice directly affected data quality, introducing systematic bias into model training.</li>
 <li><strong>Complex modeling:</strong> Integrating behavioral data (e.g., prejudice measures, IAT scores) with neural network outputs required cross-platform pipelines in Python and R.</li>
 <li><strong>Ethical design:</strong> Balancing the need for demographic annotation with participant privacy and psychological sensitivity.</li>
 </ul>
-<h3 id="i-classfas-fa-toolsi-solutions-to-the-challenge"><i class="fas fa-tools"></i> Solutions to the challenge</h3>
+<h2 id="i-classfas-fa-toolsi-solutions-to-the-challenge"><i class="fas fa-tools"></i> Solutions to the challenge</h2>
 <ul>
 <li>Designed a <strong>balanced sampling pipeline</strong> to ensure proportional racial representation in training data.</li>
 <li>Used <strong>annotator bias metrics</strong> (implicit and explicit) to statistically control labeling effects.</li>
 <li>Combined <strong>deep learning models</strong> in Python with <strong>R-based analyses</strong> (SEM, regression) for multi-level validation.</li>
 <li>Conducted <strong>behavioral perception studies</strong> to test how human observers perceived model outputs, validating algorithmic findings.</li>
 </ul>
-<h3 id="i-classfas-fa-bullseyei-goal"><i class="fas fa-bullseye"></i> Goal</h3>
-<p>To understand how <strong>human cognitive and social biases</strong> shape the fairness of AI models—bridging psychology and computer vision to uncover where inequality truly originates in algorithmic decision-making.</p>
-<h3 id="i-classfas-fa-medali-why-it-matters"><i class="fas fa-medal"></i> Why it matters</h3>
-<ul>
-<li>Reveals how <strong>bias originates in human labeling</strong>, not just in algorithms.</li>
-<li>Provides insight for building <strong>responsible, fair, and interpretable AI systems</strong>.</li>
-<li>Encourages interdisciplinary collaboration between <strong>psychology and machine learning</strong> to design socially aware technologies.</li>
-</ul>
-<h3 id="i-classfas-fa-bullseyei-goal-1"><i class="fas fa-bullseye"></i> Goal</h3>
-<p>To uncover how <strong>human cognitive and social biases</strong> shape fairness in AI—bridging psychology and computer vision to identify where inequality originates in algorithmic decision-making.</p>
-<h2 id="i-classfas-fa-microscopei-study-1-2-dataset-imbalance"><i class="fas fa-microscope"></i> Study 1-2: Dataset Imbalance</h2>
-<h3 id="i-classfas-fa-exclamation-trianglei-challenge-1"><i class="fas fa-exclamation-triangle"></i> Challenge</h3>
+<h1 id="i-classfas-fa-microscopei-study-1-2-dataset-imbalance"><i class="fas fa-microscope"></i> Study 1-2: Dataset Imbalance</h1>
+<h2 id="i-classfas-fa-exclamation-trianglei-challenge-1"><i class="fas fa-exclamation-triangle"></i> Challenge</h2>
 <ul>
 <li>Building racially diverse datasets without synthetic overcorrection.</li>
 <li>Preserving authenticity while balancing demographic representation.</li>
 <li>Navigating ethical concerns around demographic annotation and privacy.</li>
 </ul>
-<h3 id="i-classfas-fa-toolsi-solutions"><i class="fas fa-tools"></i> Solutions</h3>
+<h2 id="i-classfas-fa-toolsi-solutions"><i class="fas fa-tools"></i> Solutions</h2>
 <ul>
 <li>Designed a <strong>balanced sampling pipeline</strong> to ensure proportional racial representation.</li>
 <li>Used a mix of <strong>real and synthetic facial images</strong>, carefully annotated for race and ambiguity.</li>
@@ -818,14 +879,14 @@ Study 2 examines how human bias in labeling influences classification accuracy, 
 with race annotations.</em>
 </p>
 <p><br><br></p>
-<h3 id="i-classfas-fa-codei-research-process"><i class="fas fa-code"></i> Research Process</h3>
-<h4 id="stage-1-identifying-the-problem">Stage 1: Identifying the Problem</h4>
+<h2 id="i-classfas-fa-codei-research-process"><i class="fas fa-code"></i> Research Process</h2>
+<h3 id="stage-1-identifying-the-problem">Stage 1: Identifying the Problem</h3>
 <ul>
 <li><strong>Challenge:</strong> Automated face classification models frequently misclassify non-White faces due to biased training datasets.</li>
 <li><strong>Key Question:</strong> How does <strong>dataset racial balance</strong> affect a model’s ability to accurately classify both monoracial and mixed-race faces?</li>
 <li><strong>Psychological Context:</strong> Reflects findings from <strong>social categorization research</strong>—biased exposure skews perceptual boundaries, analogous to biased data exposure in AI.</li>
 </ul>
-<h4 id="stage-2-developing-the-study-design">Stage 2: Developing the Study Design</h4>
+<h3 id="stage-2-developing-the-study-design">Stage 2: Developing the Study Design</h3>
 <ul>
 <li><strong>Objective:</strong> Examine how dataset diversity, independent of dataset size, influences classification performance.</li>
 <li><strong>Approach:</strong>
@@ -853,13 +914,13 @@ with race annotations.</em>
   <em> Demographic composition of the original UTKFace dataset (FForiginal) and the original
 FairFace (UTKoriginal) dataset.</em>
 </p>
-<h3 id="stage-3-dataset-training"><strong>Stage 3: Dataset Training</strong></h3>
+<h3 id="stage-3-dataset-training">Stage 3: Dataset Training</h3>
 <ul>
 <li>Gathered <strong>40,000+</strong> face images from both UTKFace and FairFace.</li>
 <li>Constructed <strong>balanced and size-matched subsets</strong> to disentangle effects of diversity vs. dataset size.</li>
 <li>Generated <strong>mixed-race face morphs</strong> (Black↔White continuum) for Study 2 to test classification thresholds.</li>
 </ul>
-<h3 id="stage-4-analysis"><strong>Stage 4: Analysis</strong></h3>
+<h3 id="stage-4-analysis">Stage 4: Analysis</h3>
 <ul>
 <li><strong>Metrics:</strong>
 <ul>
@@ -889,7 +950,7 @@ FairFace (UTKoriginal) dataset.</em>
 <li>Computed PSEs for two models trained on different datasets (UTKoriginal vs. FForiginal) to assess dataset influence.</li>
 <li>Analyses implemented in R using the <strong>quickpsy</strong> package.</li>
 </ul>
-<h3 id="stage-5-results"><strong>Stage 5: Results</strong></h3>
+<h3 id="stage-5-results">Stage 5: Results</h3>
 <ul>
 <li><strong>Accuracy:</strong> Balanced datasets (FairFace) produced <strong>higher cross-group accuracy</strong> and fewer racial misclassifications.</li>
 <li><strong>Bias Direction:</strong> UTKFace-trained models showed <strong>systematic over-classification of White faces</strong> and under-classification of Black faces.</li>
@@ -915,35 +976,35 @@ faces and for female faces. The error bars represent the 95% confidence interval
 for each gender category.</em>
 </p>
 <p><br><br></p>
-<h3 id="stage-6-interpretation"><strong>Stage 6: Interpretation</strong></h3>
+<h3 id="stage-6-interpretation">Stage 6: Interpretation</h3>
 <ul>
 <li><strong>Core Finding:</strong> Dataset racial diversity—not size—determines fairness and perceptual accuracy.</li>
 <li><strong>Psychological Parallel:</strong> Similar to <strong>own-race bias</strong> in human face perception—exposure diversity improves perceptual generalization.</li>
 <li><strong>UX Implication:</strong> Data representativeness is a <strong>design decision</strong>, shaping user-facing fairness and trust outcomes.</li>
 <li><strong>Ethical Takeaway:</strong> Diversity audits should be built into the dataset design process, much like user diversity testing in UX workflows.</li>
 </ul>
-<h2 id="i-classfas-fa-microscopei-study-3-annotator-prejudice-propagation"><i class="fas fa-microscope"></i> STUDY 3: Annotator Prejudice Propagation</h2>
-<h3 id="i-classfas-fa-exclamation-trianglei-challenge-2"><i class="fas fa-exclamation-triangle"></i> Challenge</h3>
+<h1 id="i-classfas-fa-microscopei-study-3-annotator-prejudice-propagation"><i class="fas fa-microscope"></i> STUDY 3: Annotator Prejudice Propagation</h1>
+<h2 id="i-classfas-fa-exclamation-trianglei-challenge-2"><i class="fas fa-exclamation-triangle"></i> Challenge</h2>
 <ul>
 <li>Capturing human bias in labeling without contaminating ground truth.</li>
 <li>Integrating psychological data with machine learning pipelines.</li>
 <li>Ensuring cross-platform compatibility between behavioral and computational tools.</li>
 </ul>
-<h3 id="i-classfas-fa-toolsi-solutions-1"><i class="fas fa-tools"></i> Solutions</h3>
+<h2 id="i-classfas-fa-toolsi-solutions-1"><i class="fas fa-tools"></i> Solutions</h2>
 <ul>
 <li>Collected <strong>implicit and explicit bias measures</strong> (e.g., IAT, prejudice scales).</li>
 <li>Statistically controlled for annotator bias in labeling outcomes.</li>
 <li>Combined <strong>Python-based modeling</strong> with <strong>R-based SEM and regression</strong> for multi-level analysis.</li>
 <li>Conducted <strong>behavioral perception studies</strong> to validate algorithmic outputs.</li>
 </ul>
-<h3 id="i-classfas-fa-codei-research-process-1"><i class="fas fa-code"></i> Research Process</h3>
-<h3 id="stage-1-identifying-the-problem-1"><strong>Stage 1: Identifying the Problem</strong></h3>
+<h2 id="i-classfas-fa-codei-research-process-1"><i class="fas fa-code"></i> Research Process</h2>
+<h3 id="stage-1-identifying-the-problem-1">Stage 1: Identifying the Problem</h3>
 <ul>
 <li><strong>Challenge:</strong> Even with balanced datasets, <strong>human labelers</strong> may inject bias through subjective demographic judgments.</li>
 <li><strong>Key Question:</strong> How do <strong>individual prejudice levels</strong> among annotators affect the racial labeling of faces and downstream model behavior?</li>
 <li><strong>Psychological Context:</strong> Builds on decades of research showing that prejudice alters <strong>categorical perception</strong> and <strong>ambiguous face processing</strong>.</li>
 </ul>
-<h3 id="stage-2-developing-the-study-design-1"><strong>Stage 2: Developing the Study Design</strong></h3>
+<h3 id="stage-2-developing-the-study-design-1">Stage 2: Developing the Study Design</h3>
 <ul>
 <li><strong>Objective:</strong> Quantify how <strong>annotator racial prejudice</strong> influences face classification models.</li>
 <li><strong>Approach:</strong>
@@ -960,7 +1021,7 @@ for each gender category.</em>
   <em>Schematic design of the study's face label division and model-training processes.</em>
 </p>
 <p><br><br></p>
-<h3 id="stage-3-data-collection"><strong>Stage 3: Data Collection</strong></h3>
+<h3 id="stage-3-data-collection">Stage 3: Data Collection</h3>
 <ul>
 <li>
 <p><strong>Recruitment Platform:</strong><br>
@@ -1030,7 +1091,7 @@ groups (high-prejudice versus low-prejudice). The error bars represent the 95% c
 interval around the average accuracy rate for a given combination of face classification model
 and racial group..</em>
 </p>
-<h3 id="stage-4-analysis-1"><strong>Stage 4: Analysis</strong></h3>
+<h3 id="stage-4-analysis-1">Stage 4: Analysis</h3>
 <ul>
 <li><strong>Programming Tools:</strong>
 <ul>
@@ -1086,7 +1147,7 @@ prejudice model) and the model trained on the low-prejudice annotator labels (lo
 model). The error bars represent the 95% confidence interval around the PSE for each model.</em>
 </p>
 <p><br><br></p>
-<h3 id="stage-5-results-1"><strong>Stage 5: Results</strong></h3>
+<h3 id="stage-5-results-1">Stage 5: Results</h3>
 <ul>
 <li>
 <p><strong>Race Classification Accuracy:</strong></p>
@@ -1138,7 +1199,7 @@ model). The error bars represent the 95% confidence interval around the PSE for 
 </ul>
 </li>
 </ul>
-<h3 id="stage-6-interpretation-1"><strong>Stage 6: Interpretation</strong></h3>
+<h3 id="stage-6-interpretation-1">Stage 6: Interpretation</h3>
 <ul>
 <li>
 <p><strong>Core Insight:</strong><br>
@@ -1161,9 +1222,9 @@ Even identical architectures (ResNet-50) diverge in fairness outcomes solely due
 </ul>
 </li>
 </ul>
-<h3 id="stage-7-broader-implications"><strong>Stage 7: Broader Implications</strong></h3>
+<h3 id="stage-7-broader-implications">Stage 7: Broader Implications</h3>
 <p>The study offers empirical evidence that <strong>reducing human prejudice in labeling improves algorithmic fairness</strong>, demonstrating how psychology and machine learning must co-design ethical AI systems.</p>
-<h3 id="i-classfas-fa-toolboxi-programming--tools-summary"><i class="fas fa-toolbox"></i> <strong>Programming &amp; Tools Summary</strong></h3>
+<h1 id="i-classfas-fa-toolboxi-programming--tools-summary"><i class="fas fa-toolbox"></i> Programming &amp; Tools Summary</h1>
 <table>
 <thead>
 <tr>
