@@ -848,30 +848,34 @@ Study 2 examines how human bias in labeling influences classification accuracy, 
 </ul>
 <h2 id="i-classfas-fa-exclamation-trianglei-challenge"><i class="fas fa-exclamation-triangle"></i> Challenge</h2>
 <ul>
-<li><strong>Data imbalance:</strong> Creating racially diverse datasets while maintaining authenticity and avoiding synthetic overcorrection.</li>
-<li><strong>Human bias in labeling:</strong> Annotator prejudice directly affected data quality, introducing systematic bias into model training.</li>
-<li><strong>Complex modeling:</strong> Integrating behavioral data (e.g., prejudice measures, IAT scores) with neural network outputs required cross-platform pipelines in Python and R.</li>
-<li><strong>Ethical design:</strong> Balancing the need for demographic annotation with participant privacy and psychological sensitivity.</li>
+<li>Selecting the most suitable <strong>face datasets</strong> from many existing options.</li>
+<li>Managing <strong>large-scale automation</strong> for data ingestion, labeling, and organization.</li>
+<li>Ensuring models generalize to <strong>racially ambiguous and multiracial faces</strong>.</li>
+<li>Investigating the role of <strong>human bias</strong> beyond dataset imbalance in AI systems.</li>
+<li>Integrating <strong>psychological and behavioral data</strong> into machine learning workflows.</li>
+<li>Building <strong>automated pipelines</strong> for large-scale human data collection and model training.</li>
 </ul>
 <h2 id="i-classfas-fa-toolsi-solutions-to-the-challenge"><i class="fas fa-tools"></i> Solutions to the challenge</h2>
 <ul>
-<li>Designed a <strong>balanced sampling pipeline</strong> to ensure proportional racial representation in training data.</li>
-<li>Used <strong>annotator bias metrics</strong> (implicit and explicit) to statistically control labeling effects.</li>
-<li>Combined <strong>deep learning models</strong> in Python with <strong>R-based analyses</strong> (SEM, regression) for multi-level validation.</li>
-<li>Conducted <strong>behavioral perception studies</strong> to test how human observers perceived model outputs, validating algorithmic findings.</li>
+<li><strong>Reviewed and compared existing datasets</strong> to analyze racial composition and representation.</li>
+<li><strong>Built custom Python scripts</strong> for automation of image handling, labeling, and organization (pre-ChatGPT era, learned from Stack Overflow).</li>
+<li><strong>Generated racially ambiguous faces</strong> using WebMorph to address gaps in existing datasets.</li>
+<li><strong>Statistically controlled for annotator bias</strong> to identify human contributions to AI bias.</li>
+<li><strong>Launched large-scale data collection</strong> on MTurk with diverse human annotators.</li>
+<li><strong>Developed automated pipelines</strong> for efficient data handling and model training.</li>
 </ul>
 <h1 id="i-classfas-fa-microscopei-study-1-2-dataset-imbalance"><i class="fas fa-microscope"></i> Study 1-2: Dataset Imbalance</h1>
 <h2 id="i-classfas-fa-exclamation-trianglei-challenge-1"><i class="fas fa-exclamation-triangle"></i> Challenge</h2>
 <ul>
-<li>Building racially diverse datasets without synthetic overcorrection.</li>
-<li>Preserving authenticity while balancing demographic representation.</li>
-<li>Navigating ethical concerns around demographic annotation and privacy.</li>
+<li>Navigating the abundance of existing <strong>face datasets</strong> and determining which best fit research goals.</li>
+<li>Handle scale with automation—ingestion, labeling, and file movement for millions of face images.</li>
+<li>Move beyond monoracial test sets; evaluate performance on <strong>racially ambiguous and multiracial</strong> faces to reflect real-world diversity.</li>
 </ul>
 <h2 id="i-classfas-fa-toolsi-solutions"><i class="fas fa-tools"></i> Solutions</h2>
 <ul>
-<li>Designed a <strong>balanced sampling pipeline</strong> to ensure proportional racial representation.</li>
-<li>Used a mix of <strong>real and synthetic facial images</strong>, carefully annotated for race and ambiguity.</li>
-<li>Validated dataset composition with external demographic benchmarks.</li>
+<li>Reviewed and compared existing datasets to analyze their <strong>racial composition and representation</strong>.</li>
+<li>Built custom <strong>Python scripts for automation</strong> (image handling, labeling, and organization)—pre-ChatGPT era, learning primarily from Stack Overflow.</li>
+<li>Generated <strong>racially ambiguous faces</strong> using WebMorph to bridge gaps in existing datasets.</li>
 </ul>
 <p align="center">
   <img src="/img/plots/dataset-compositions.png" alt="Dataset composition overview" width="600"><br>
@@ -986,16 +990,15 @@ for each gender category.</em>
 <h1 id="i-classfas-fa-microscopei-study-3-annotator-prejudice-propagation"><i class="fas fa-microscope"></i> STUDY 3: Annotator Prejudice Propagation</h1>
 <h2 id="i-classfas-fa-exclamation-trianglei-challenge-2"><i class="fas fa-exclamation-triangle"></i> Challenge</h2>
 <ul>
-<li>Capturing human bias in labeling without contaminating ground truth.</li>
-<li>Integrating psychological data with machine learning pipelines.</li>
-<li>Ensuring cross-platform compatibility between behavioral and computational tools.</li>
+<li>Determine whether <strong>human bias</strong>—beyond dataset imbalance—contributes to bias observed in AI systems.</li>
+<li>Integrate <strong>psychological data</strong> into machine learning pipelines.</li>
+<li>Develop <strong>automated systems</strong> to collect large-scale human data and prepare it efficiently for model training.</li>
 </ul>
 <h2 id="i-classfas-fa-toolsi-solutions-1"><i class="fas fa-tools"></i> Solutions</h2>
 <ul>
-<li>Collected <strong>implicit and explicit bias measures</strong> (e.g., IAT, prejudice scales).</li>
-<li>Statistically controlled for annotator bias in labeling outcomes.</li>
-<li>Combined <strong>Python-based modeling</strong> with <strong>R-based SEM and regression</strong> for multi-level analysis.</li>
-<li>Conducted <strong>behavioral perception studies</strong> to validate algorithmic outputs.</li>
+<li><strong>Statistically controlled</strong> for annotator bias to isolate human contributions to AI bias.</li>
+<li><strong>Launched large-scale data collection</strong> on MTurk to gather annotations from diverse human participants.</li>
+<li><strong>Coded automation pipelines</strong> for data handling and processing (pre-ChatGPT era, learned primarily from Stack Overflow).</li>
 </ul>
 <h2 id="i-classfas-fa-codei-research-process-1"><i class="fas fa-code"></i> Research Process</h2>
 <h3 id="stage-1-identifying-the-problem-1">Stage 1: Identifying the Problem</h3>
