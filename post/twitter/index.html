@@ -768,12 +768,16 @@
   <div class="toc-body">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#i-classfas-fa-book-openi-summary"><i class="fas fa-book-open"></i> Summary:</a>
+    <li>
       <ul>
-        <li><a href="#i-classfas-fa-exclamation-trianglei-challenge"><i class="fas fa-exclamation-triangle"></i> Challenge</a></li>
-        <li><a href="#i-classfas-fa-toolsi-solutions-to-the-challenge"><i class="fas fa-tools"></i> Solutions to the challenge</a></li>
-        <li><a href="#i-classfas-fa-bullseyei-goal"><i class="fas fa-bullseye"></i> Goal</a></li>
-        <li><a href="#i-classfas-fa-medali-why-it-matters"><i class="fas fa-medal"></i> Why it matters</a></li>
+        <li><a href="#i-classfas-fa-book-openi-summary"><i class="fas fa-book-open"></i> Summary:</a>
+          <ul>
+            <li><a href="#i-classfas-fa-exclamation-trianglei-challenge"><i class="fas fa-exclamation-triangle"></i> Challenge</a></li>
+            <li><a href="#i-classfas-fa-toolsi-solutions-to-the-challenge"><i class="fas fa-tools"></i> Solutions to the challenge</a></li>
+            <li><a href="#i-classfas-fa-bullseyei-goal"><i class="fas fa-bullseye"></i> Goal</a></li>
+            <li><a href="#i-classfas-fa-medali-why-it-matters"><i class="fas fa-medal"></i> Why it matters</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
     <li><a href="#i-classfas-fa-codei-research-process"><i class="fas fa-code"></i> Research Process</a>
@@ -798,7 +802,7 @@
   </div>
 </nav>
 
-<h1 id="i-classfas-fa-book-openi-summary"><i class="fas fa-book-open"></i> Summary:</h1>
+<h2 id="i-classfas-fa-book-openi-summary"><i class="fas fa-book-open"></i> Summary:</h2>
 <ul>
 <li>
 <p>Leveraging advanced natural language processing techniques, this project investigates long-term emotional expression among openly queer users on <strong>Twitter (now X.com</strong>) from 2012 to 2017. The analysis spans two landmark U.S. Supreme Court rulings on same-sex marriage (2013, 2015), revealing how sentiment patterns evolved in response to major sociopolitical events.</p>
@@ -811,22 +815,22 @@
 <ul>
 <li>Kyle Ratner Ph.D. UC Santa Barbara</li>
 </ul>
-<h2 id="i-classfas-fa-exclamation-trianglei-challenge"><i class="fas fa-exclamation-triangle"></i> Challenge</h2>
+<h3 id="i-classfas-fa-exclamation-trianglei-challenge"><i class="fas fa-exclamation-triangle"></i> Challenge</h3>
 <ul>
 <li><strong>Identifying relevant users:</strong> I needed a rough but reasonable way to detect Twitter users who were <strong>openly LGBTQ+</strong> or discussing their identity (e.g., using <strong>emojis</strong>, <strong>hashtags</strong>, or self-descriptions such as 🏳️‍🌈).</li>
 <li><strong>Establishing user-centered relevance:</strong> The study addresses a <strong>research gap</strong> in understanding how <strong>queer emotional expression evolves over time</strong> in response to sociopolitical events — a need often overlooked in <strong>sentiment and visibility research</strong>.</li>
 <li><strong>Data scale and accessibility:</strong> Managing <strong>millions of tweets</strong> required building a <strong>custom web scraper</strong> and designing <strong>efficient data pipelines</strong>.</li>
 <li><strong>Computational constraints:</strong> Running <strong>BERT-based sentiment analysis</strong> on such a large dataset demanded <strong>substantial compute resources</strong> and <strong>optimization strategies</strong>.</li>
 </ul>
-<h2 id="i-classfas-fa-toolsi-solutions-to-the-challenge"><i class="fas fa-tools"></i> Solutions to the challenge</h2>
+<h3 id="i-classfas-fa-toolsi-solutions-to-the-challenge"><i class="fas fa-tools"></i> Solutions to the challenge</h3>
 <ul>
 <li><strong>User detection pipeline:</strong> Wrote <strong>custom Python scripts</strong> to extract user profile metadata and identify openly LGBTQ+ users based on <strong>self-descriptions</strong>, <strong>emojis</strong>, and <strong>hashtags</strong>.</li>
 <li><strong>Web scraping infrastructure:</strong> Customized the open-source <strong>Twint package</strong> to build a <strong>scalable Twitter scraper</strong>, distributed across <strong>multiple lab machines</strong> for <strong>parallel data collection</strong>.</li>
 <li><strong>High-performance sentiment analysis:</strong> Leveraged <strong>UCSB’s High Performance Computing (HPC) cluster</strong> to run <strong>BERT-based sentiment models</strong> efficiently, overcoming the limitations of <strong>personal hardware</strong>.</li>
 </ul>
-<h2 id="i-classfas-fa-bullseyei-goal"><i class="fas fa-bullseye"></i> Goal</h2>
+<h3 id="i-classfas-fa-bullseyei-goal"><i class="fas fa-bullseye"></i> Goal</h3>
 <p>At its core, the goal was to <strong>understand the affective experiences of LGBTQ+ users</strong> through their <strong>digital expressions</strong> — seeing <strong>online sentiment</strong> as one potential signal of <strong>long-term well-being</strong> in the face of <strong>systemic change</strong>.</p>
-<h2 id="i-classfas-fa-medali-why-it-matters"><i class="fas fa-medal"></i> Why it matters</h2>
+<h3 id="i-classfas-fa-medali-why-it-matters"><i class="fas fa-medal"></i> Why it matters</h3>
 <ul>
 <li>Understand how government rulings shape public discourse and online emotions.</li>
 <li>Explore whether structural events like court rulings contribute to community resilience or distress among stigmatized groups.</li>
